@@ -151,11 +151,11 @@
         </div>
     </section>
     <!--Services One End-->
-    <div class="section-title text-center">
-        <h2>NEWS &amp; EVENTS</h2>
-    </div>
 <!--Testimonial Two Start-->
-<section class="testimonial-two">
+<section class="testimonial-two" style="    background-color: black;">
+<div class="section-title text-center" style="color:#fff">
+        <h2 style="color:#fff">NEWS &amp; EVENTS</h2>
+    </div>
     <div class="container">
         <div class="testimonial-two__slider">
             <div class="testimonial-two__thumb-outer-box">
@@ -195,7 +195,7 @@
                                 <p class="testimonial-two__text">This is due to their excellent service,
                                     competitive pricing and customer support. It’s throughly refresing to get
                                     such a personal touch.</p>
-                                <h3 class="testimonial-two__client-name">Dainl christine <span> . Co
+                                <h3 class="testimonial-two__client-name" style="color:#fff">Dainl christine <span> . Co
                                         founder</span> </h3>
                             </div>
                         </div>
@@ -209,7 +209,7 @@
                                 <p class="testimonial-two__text">This is due to their excellent service,
                                     competitive pricing and customer support. It’s throughly refresing to get
                                     such a personal touch.</p>
-                                <h3 class="testimonial-two__client-name">Christine eve <span> . Co
+                                <h3 class="testimonial-two__client-name " style="color:#fff">Christine eve <span> . Co
                                         founder</span> </h3>
                             </div>
                         </div>
@@ -223,7 +223,7 @@
                                 <p class="testimonial-two__text">This is due to their excellent service,
                                     competitive pricing and customer support. It’s throughly refresing to get
                                     such a personal touch.</p>
-                                <h3 class="testimonial-two__client-name">Kevin copper <span> . Co founder</span>
+                                <h3 class="testimonial-two__client-name " style="color:#fff">Kevin copper <span> . Co founder</span>
                                 </h3>
                             </div>
                         </div>
@@ -487,114 +487,6 @@
     </div>
 </section>
 <!--Services Three End -->
-    <!--Feature One Start-->
-    <section class="feature-three">
-        <div class="feature-three__wrap">
-            <ul class="list-unstyled feature-three__list">
-                <li>
-                    <div class="feature-three__title-box">
-                        <h2 class="feature-three__title"> <span>*</span> Transofrm Ideas</h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="feature-three__title-box">
-                        <h2 class="feature-three__title"> <span>*</span> Inspired Creativity</h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="feature-three__title-box">
-                        <h2 class="feature-three__title"> <span>*</span> Design Craft</h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="feature-three__title-box">
-                        <h2 class="feature-three__title"> <span>*</span> Transofrm Ideas</h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="feature-three__title-box">
-                        <h2 class="feature-three__title"> <span>*</span> Inspired Creativity</h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="feature-three__title-box">
-                        <h2 class="feature-three__title"> <span>*</span> Design Craft</h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="feature-three__title-box">
-                        <h2 class="feature-three__title"> <span>*</span> Transofrm Ideas</h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="feature-three__title-box">
-                        <h2 class="feature-three__title"> <span>*</span> Inspired Creativity</h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="feature-three__title-box">
-                        <h2 class="feature-three__title"> <span>*</span> Design Craft</h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="feature-three__title-box">
-                        <h2 class="feature-three__title"> <span>*</span> Transofrm Ideas</h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="feature-three__title-box">
-                        <h2 class="feature-three__title"> <span>*</span> Inspired Creativity</h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="feature-three__title-box">
-                        <h2 class="feature-three__title"> <span>*</span> Design Craft</h2>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <!--Feature One End-->
-    <!--Award One Start-->
-    <section class="award-one">
-        <div class="container">
-            <div class="award-one__inner">
-                <ul class="award-one__list list-unstyled">
-                    <li>
-                        <h3 class="award-one__title">2016 Awards</h3>
-                        <p class="award-one__text">New stretegy
-                            <br> Visualization</p>
-                    </li>
-                    <li>
-                        <h3 class="award-one__title">2018 Awards</h3>
-                        <p class="award-one__text">Animation quality
-                            <br> Mobile excellence</p>
-                        <p class="award-one__sub-title">Site of the day</p>
-                        <p class="award-one__text-2">Won award</p>
-                    </li>
-                    <li>
-                        <h3 class="award-one__title">2020 Awards</h3>
-                        <p class="award-one__text">New stretegy
-                            <br> Visualization</p>
-                    </li>
-                    <li>
-                        <h3 class="award-one__title">2022 Awards</h3>
-                        <p class="award-one__text">Animation quality
-                            <br> Mobile excellence</p>
-                        <p class="award-one__sub-title">Site of the day</p>
-                        <p class="award-one__text-2">Won award</p>
-                    </li>
-                    <li>
-                        <h3 class="award-one__title">2023 Awards</h3>
-                        <p class="award-one__text">New stretegy
-                            <br> Visualization</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!--Award One End-->
-
     <!--Why Choose One Start-->
     <section class="why-choose-one">
         <div class="container">
@@ -618,7 +510,6 @@
             </div>
         </div>
     </section>
-    php artisan migrate:rollback --path=/database/migrations/2023_07_19_094540_create_visitors_table.php
     <!--Why Choose One End-->
     <section class="services-three" style="background-color: black">
         <div class="container">
@@ -695,5 +586,65 @@
             </div>
         </div>
     </section>
-    <!--Brand One End-->
+    <section class="why-choose-one">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="why-choose-one__left">
+                        <div class="section-title text-left">
+                            <h2 class="section-title__title">We’re Changing The World Of Care!</h2>
+                        </div>
+                        <p class="why-choose-one__text-2">At ResicareSA, we exist to empower families to make informed choices for their loved ones support.</p>
+                        <p class="why-choose-one__text-2">We understand the different types of support available through the NDIS, how to access it and learn about other support products which could enhance their quality of life.</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="why-choose-one__right">
+                        <div class="why-choose-one__img wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
+                            <img src="{{ asset('front') }}/assets/images/resources/why-choose-one-img-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      <!--Award One Start-->
+      <section class="award-one">
+        <div class="container">
+            <div class="award-one__inner">
+                <ul class="award-one__list list-unstyled">
+                    <li>
+                        <h3 class="award-one__title">2016 Awards</h3>
+                        <p class="award-one__text">New stretegy
+                            <br> Visualization</p>
+                    </li>
+                    <li>
+                        <h3 class="award-one__title">2018 Awards</h3>
+                        <p class="award-one__text">Animation quality
+                            <br> Mobile excellence</p>
+                        <p class="award-one__sub-title">Site of the day</p>
+                        <p class="award-one__text-2">Won award</p>
+                    </li>
+                    <li>
+                        <h3 class="award-one__title">2020 Awards</h3>
+                        <p class="award-one__text">New stretegy
+                            <br> Visualization</p>
+                    </li>
+                    <li>
+                        <h3 class="award-one__title">2022 Awards</h3>
+                        <p class="award-one__text">Animation quality
+                            <br> Mobile excellence</p>
+                        <p class="award-one__sub-title">Site of the day</p>
+                        <p class="award-one__text-2">Won award</p>
+                    </li>
+                    <li>
+                        <h3 class="award-one__title">2023 Awards</h3>
+                        <p class="award-one__text">New stretegy
+                            <br> Visualization</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--Award One End-->
 @endsection

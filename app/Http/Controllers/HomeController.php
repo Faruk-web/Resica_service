@@ -24,33 +24,49 @@ class HomeController extends Controller
     {
         return view('front.blog.blog_details');
     }
-    public function ielts()
+    public function andis()
     {
-        return view('front.coaching.ielts');
+        return view('front.coaching.andis');
     }
-    public function pte()
+    public function pricing()
     {
-        return view('front.coaching.pte');
+        return view('front.coaching.pricing');
     }
-    public function businessVisa()
+    public function booklets()
     {
-        return view('front.visa.business_visa');
+        return view('front.visa.booklets');
     }
-    public function australia()
+    public function fags()
     {
-        return view('front.country.australia');
+        return view('front.country.fags');
     }
-    public function canada()
+    public function daily()
     {
-        return view('front.country.canada');
+        return view('front.assist.daily');
     }
-    public function uk()
+    public function travel()
     {
-        return view('front.country.uk');
+        return view('front.assist.travel');
     }
-    public function usa()
+    public function support()
     {
-        return view('front.country.usa');
+        return view('front.assist.support');
+    }
+    public function participation()
+    {
+        return view('front.assist.participation');
+    }
+    public function activities()
+    {
+        return view('front.assist.activities');
+    }
+    public function sleepover()
+    {
+        return view('front.assist.sleepover');
+    }
+    public function coordination()
+    {
+        return view('front.assist.coordination');
     }
     public function about()
     {

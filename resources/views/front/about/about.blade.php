@@ -3,514 +3,243 @@
     About us
 @endsection
 @section('body')
-    <!-- page-title -->
-    <div class="cmt-page-title-row">
-        <div class="cmt-page-title-row-inner">
+ <!--About Three Start-->
+ <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+
+        <!--Page Header Start-->
+        <section class="page-header">
+            <div class="page-header__bg" style="background-image: url({{asset('front')}}/assets/images/backgrounds/page-header-bg.jpg);">
+            </div>
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12">
-                        <div class="page-title-heading">
-                            <h2 class="title">About Our Visa Consultancy</h2>
-                            <p>Founded In 1996 New York,USA</p>
-                        </div>
-                        <div class="breadcrumb-wrapper">
-                                <span>
-                                    <a title="Homepage" href="index-1.html">Home</a>
-                                </span>
-                            <span>About Us</span>
-                        </div>
-                    </div>
+                <div class="page-header__inner">
+                    <h2>About</h2>
+                    <ul class="thm-breadcrumb list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><span>/</span></li>
+                        <li class="active">About</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--Page Header End-->
+        <section class="why-choose-one">
+        <div class="container">
+            <div class="row">
+            <div class="blog-details__content">
+                    <ul class="blog-details__meta list-unstyled">
+                        <li>
+                            <a href="blog-details.html"><i class="fas fa-tags"></i>Design</a>
+                        </li>
+                        <li>
+                            <a href="blog-details.html"><i class="fas fa-comments"></i>2 Comments</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <h3 class="blog-details__title">Trending code settings for a nice portfolio</h3>
+                    <p class="blog-details__text-1">There are many variations of passages of Lorem Ipsum
+                        available, but majority have suffered alteration in some form, by injected humour,
+                        or randomised words which don't look even slightly believable. If you are going to
+                        use a passage of Lorem Ipsum. There are many variations of passages of Lorem Ipsum
+                        available, but majority have suffered alteration in some form, by injected humour,
+                        or randomised words which don't look even slightly believable. If you are going to
+                        use a passage of Lorem Ipsum. There are many variations of passages of Lorem Ipsum
+                        available, but majority have suffered alteration in some form, by injected humour,
+                        or randomised words which don't look even slightly believable. If you are going to
+                        use a passage of Lorem Ipsum. Suspendisse ultricies vestibulum vehicula. Proin
+                        laoreet porttitor lacus. Duis auctor vel ex eu elementum. Fusce eu volutpat felis.
+                        Proin sed eros tincidunt, sagittis sapien eu, porta diam. Aenean finibus scelerisque
+                        nulla non facilisis. Fusce vel orci sed quam gravida condimentum. Aliquam
+                        condimentum, massa vel mollis volutpat, erat sem pharetra quam, ac mattis arcu elit
+                        non massa. Nam mollis nunc velit, vel varius arcu fringilla tristique. Cras elit
+                        nunc, sagittis eu bibendum eu, ultrices placerat sem. Praesent vitae metus dolor.
+                        Nulla a erat et orci mattis auctor.</p>
+                    <p class="blog-details__text-2">Mauris non dignissim purus, ac commodo diam. Donec sit
+                        amet lacinia nulla. Aliquam quis purus in justo pulvinar tempor. Aliquam tellus
+                        nulla, sollicitudin at euismod nec, feugiat at nisi. Quisque vitae odio nec lacus
+                        interdum tempus. Phasellus a rhoncus erat. Vivamus vel eros vitae est aliquet
+                        pellentesque vitae et nunc. Sed vitae leo vitae nisl pellentesque semper.</p>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- page-title end -->
-    <!--site-main start-->
-    <div class="site-main">
-        <!--about-section-->
-        <section class="cmt-row about_2-section clearfix">
+    </section>
+        <!--Counter Two Start-->
+        <section class="counter-two">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-5 col-5 mr-lg-auto ml-lg-0 offset-3">
-                        <div class="cmt-bg cmt-col-bgcolor-yes cmt-bgcolor-grey pt-25 pb-25 pl-25 pr-25 ml-80 res-991-ml-0">
-                            <div class="cmt-col-wrapper-bg-layer cmt-bg-layer"></div>
-                            <div class="layer-content">
-                                <div class="cmt-bgcolor-white pt-60 pb-50 res-991-pt-50 res-991-pb-40">
-                                    <div class="col-lg-12">
-                                        <div class="ttm_single_image-wrapper ml_110 mr_200 res-575-mr_140">
-                                            <img class="img-fluid" src="{{asset('/')}}front/assets/images/single-img-08.jpg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
+                    <!--Counter Two Start-->
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="counter-two__single">
+                            <div class="counter-two__count count-box">
+                                <h3 class="count-text" data-stop="82" data-speed="1500">00</h3>
+                                <span>k</span>
                             </div>
+                            <p class="counter-two__text">Projects
+                                <br> completed</p>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-xs-12">
-                        <div class="pt-15 pr-30 mb_30 res-991-pr-0 res-991-pt-30">
-                            <!-- section title -->
-                            <div class="section-title">
-                                <div class="title-header">
-                                    <h5>why choose us</h5>
-                                    <h2 class="title">Why Choose <strong>Tripzia Visa Consultancy?</strong></h2>
-                                </div>
-                            </div><!-- section title end -->
-                            <p>Foundation was established with a small idea that was incepted in the minds of its promoters in the year 1994! We skillfully guide the applicants for their immigration process to any country they aspire to settle. </p>
-                            <div class="pt-10 pr-15 res-991-pr-0">
-                                <!-- featured-icon-box -->
-                                <div class="featured-icon-box icon-align-before-content style2">
-                                    <div class="featured-icon">
-                                        <div class="cmt-icon cmt-icon_element-border cmt-icon_element-color-skincolor cmt-icon_element-size-lg cmt-icon_element-style-square">
-                                            <i class="flaticon-policy"></i>
-                                        </div>
-                                    </div>
-                                    <div class="featured-content">
-                                        <div class="featured-title">
-                                            <h5><a href="services-1.html">Accurate Guidance</a></h5>
-                                        </div>
-                                        <div class="featured-desc">
-                                            <p>Skilled professionals are always ready to provide reliable services to our clients!</p>
-                                        </div>
-                                    </div>
-                                </div><!-- featured-icon-box end -->
-                                <!-- featured-icon-box -->
-                                <div class="featured-icon-box icon-align-before-content style2">
-                                    <div class="featured-icon">
-                                        <div class="cmt-icon cmt-icon_element-border cmt-icon_element-color-skincolor cmt-icon_element-size-lg cmt-icon_element-style-square">
-                                            <i class="flaticon-contract"></i>
-                                        </div>
-                                    </div>
-                                    <div class="featured-content">
-                                        <div class="featured-title">
-                                            <h5><a href="services-1.html">Our Presence</a></h5>
-                                        </div>
-                                        <div class="featured-desc">
-                                            <p>Branches are situated in major metro cities and overseas, always open for you!</p>
-                                        </div>
-                                    </div>
-                                </div><!-- featured-icon-box end -->
+                    <!--Counter Two End-->
+                    <!--Counter Two Start-->
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="counter-two__single counter-two__single-2">
+                            <div class="counter-two__count count-box">
+                                <h3 class="count-text" data-stop="170" data-speed="1500">00</h3>
                             </div>
+                            <p class="counter-two__text">Honorable
+                                <br> awards</p>
                         </div>
                     </div>
-                </div><!-- row end -->
-            </div>
-        </section>
-        <!--about-section end-->
-        <!--broken-section-->
-        <section class="cmt-row broken-section bg-layer-equal-height clearfix">
-            <div class="container">
-                <div class="row no-gutters">
-                    <div class="col-lg-6">
-                        <div class="cmt-bg cmt-col-bgcolor-yes cmt-left-span cmt-bgcolor-darkgrey spacing-6">
-                            <div class="cmt-col-wrapper-bg-layer cmt-bg-layer"></div>
-                            <div class="layer-content">
-                                <div class="pl-15 mt-2 text-left res-991-pl-0 res-991-mt-15">
-                                    <!-- section title -->
-                                    <div class="section-title">
-                                        <div class="title-header">
-                                            <h5>ABOUT consultant</h5>
-                                            <h2 class="title">Immigration Services From <strong>Experienced Agents.</strong></h2>
-                                        </div>
-                                    </div><!-- section title end -->
-                                    <p>Foundation was established with a small idea that was incepted in the minds of its promoters in the year 1994! We skillfully guide applicants for their immigration process to any country they aspire to settle. <a class="cmt-textcolor-skincolor" href="contact-us-1.html">Read More</a></p>
-                                    <div class="pt-10">
-                                        <!-- cmt-progress-bar -->
-                                        <div class="cmt-progress-bar" data-percent="92%">
-                                            <div class="progressbar-title">Immigration Consultant</div>
-                                            <div class="progress-bar-inner">
-                                                <div class="progress-bar progress-bar-color-bar_skincolor"></div>
-                                            </div>
-                                            <div class="progress-bar-percent" data-percentage="92"></div>
-                                        </div><!-- cmt-progress-bar end -->
-                                        <!-- cmt-progress-bar -->
-                                        <div class="cmt-progress-bar clearfix" data-percent="80%">
-                                            <div class="progressbar-title">Study and work visa</div>
-                                            <div class="progress-bar-inner">
-                                                <div class="progress-bar progress-bar-color-bar_skincolor"></div>
-                                            </div>
-                                            <div class="progress-bar-percent" data-percentage="80"></div>
-                                        </div><!-- cmt-progress-bar end -->
-                                        <!-- cmt-progress-bar -->
-                                        <div class="cmt-progress-bar clearfix" data-percent="88%">
-                                            <div class="progressbar-title">buisness visit visa</div>
-                                            <div class="progress-bar-inner">
-                                                <div class="progress-bar progress-bar-color-bar_skincolor"></div>
-                                            </div>
-                                            <div class="progress-bar-percent" data-percentage="88"></div>
-                                        </div><!-- cmt-progress-bar end -->
-                                    </div>
-                                </div>
+                    <!--Counter Two End-->
+                    <!--Counter Two Start-->
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="counter-two__single counter-two__single-3">
+                            <div class="counter-two__count count-box">
+                                <h3 class="count-text" data-stop="80" data-speed="1500">00</h3>
+                                <span>k</span>
                             </div>
+                            <p class="counter-two__text">Satisfied
+                                <br> customers</p>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 mx-auto">
-                        <!-- col-img-img-five -->
-                        <div class="cmt-bg cmt-col-bgimage-yes col-bg-img-five cmt-right-span">
-                            <div class="cmt-col-wrapper-bg-layer cmt-bg-layer"></div>
-                            <div class="layer-content h-100">
-                                <div class="col-lg-7 col-md-4 p-0 h-100">
-                                    <div class="cmt-bgcolor-skincolor d-flex flex-column h-100 justify-content-between featured-icon-box icon-align-top-content style7">
-                                        <div class="featured-content cmt-bgcolor-skincolor bor_rad_5">
-                                            <div class="featured-title">
-                                                <h5>The Future Of Bussiness <strong>Visa Consulting.</strong></h5>
-                                            </div>
-                                        </div>
-                                        <a class="cmt-btn btn-inline cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-white" href="contact-us-1.html" title=""><i class="fa fa-minus"></i>Contact us</a>
-                                    </div>
-                                </div>
+                    <!--Counter Two End-->
+                    <!--Counter Two Start-->
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="counter-two__single counter-two__single-2 counter-two__single-4">
+                            <div class="counter-two__count count-box">
+                                <h3 class="count-text" data-stop="680" data-speed="1500">00</h3>
                             </div>
-                        </div><!-- col-img-bg-img-five end-->
-                    </div>
-                </div><!-- row end -->
-            </div>
-        </section>
-        <!--broken-section end-->
-        <!--team-section-->
-        <section class="cmt-row team-section clearfix">
-            <div class="container">
-                <!-- section title -->
-                <div class="section-title title-style-center_text">
-                    <div class="title-header">
-                        <h5>Skillful Professionals</h5>
-                        <h2 class="title">Meet Our <strong>Dedicated Team!</strong></h2>
-                    </div>
-                </div><!-- section title end -->
-                <!-- row -->
-                <div class="row slick_slider" data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "arrows":false, "autoplay":true, "infinite":true, "responsive": [{"breakpoint":991,"settings":{"slidesToShow": 3}}, {"breakpoint":678,"settings":{"slidesToShow": 2}}, {"breakpoint":460,"settings":{"slidesToShow": 1}}]}'>
-                    <div class="cmt-box-col-wrapper col-lg-4">
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team bor_rad_5">
-                            <div class="cmt-team-box-view-overlay">
-                                <div class="featured-iconbox cmt-media-link">
-                                    <div class="media-block">
-                                        <ul class="social-icons">
-                                            <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
-                                            <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
-                                            <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="{{asset('/')}}front/assets/images/team-member/team-img01.jpg" alt="image">
-                                </div>
-                            </div>
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="team-details.html">Melika Fonals</a></h5>
-                                </div>
-                                <div class="team-position">Migration Agent</div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                    </div>
-                    <div class="cmt-box-col-wrapper col-lg-4">
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team bor_rad_5">
-                            <div class="cmt-team-box-view-overlay">
-                                <div class="featured-iconbox cmt-media-link">
-                                    <div class="media-block">
-                                        <ul class="social-icons">
-                                            <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
-                                            <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
-                                            <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="{{asset('/')}}front/assets/images/team-member/team-img02.jpg" alt="image">
-                                </div>
-                            </div>
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="team-details.html">Sophia Arthur</a></h5>
-                                </div>
-                                <div class="team-position">Migration Agent</div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                    </div>
-                    <div class="cmt-box-col-wrapper col-lg-4">
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team bor_rad_5">
-                            <div class="cmt-team-box-view-overlay">
-                                <div class="featured-iconbox cmt-media-link">
-                                    <div class="media-block">
-                                        <ul class="social-icons">
-                                            <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
-                                            <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
-                                            <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="{{asset('/')}}front/assets/images/team-member/team-img03.jpg" alt="image">
-                                </div>
-                            </div>
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="team-details.html">Robert Walter</a></h5>
-                                </div>
-                                <div class="team-position">Migration Agent</div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                    </div>
-                    <div class="cmt-box-col-wrapper col-lg-4">
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team bor_rad_5">
-                            <div class="cmt-team-box-view-overlay">
-                                <div class="featured-iconbox cmt-media-link">
-                                    <div class="media-block">
-                                        <ul class="social-icons">
-                                            <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
-                                            <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
-                                            <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="{{asset('/')}}front/assets/images/team-member/team-img04.jpg" alt="image">
-                                </div>
-                            </div>
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="team-details.html">Michael Grey</a></h5>
-                                </div>
-                                <div class="team-position">Migration Agent</div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                    </div>
-                    <div class="cmt-box-col-wrapper col-lg-4">
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team bor_rad_5">
-                            <div class="cmt-team-box-view-overlay">
-                                <div class="featured-iconbox cmt-media-link">
-                                    <div class="media-block">
-                                        <ul class="social-icons">
-                                            <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
-                                            <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
-                                            <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="{{asset('/')}}front/assets/images/team-member/team-img05.jpg" alt="image">
-                                </div>
-                            </div>
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="team-details.html">John Doe</a></h5>
-                                </div>
-                                <div class="team-position">Migration Agent</div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                    </div>
-                </div><!-- row end -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="mt-35 text-center res-991-mt-20">
-                            <a class="cmt-btn cmt-btn-size-md cmt-btn-shape-round cmt-btn-style-border cmt-btn-color-dark" href="team-details.html">View more taem!</a>
+                            <p class="counter-two__text">Professional
+                                <br> team</p>
                         </div>
                     </div>
+                    <!--Counter Two End-->
                 </div>
             </div>
         </section>
-        <!--team-section end-->
-        <!--testimonial-section-->
-        <section class="cmt-row testimonial-section cmt-bgcolor-grey clearfix">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-xs-12">
-                        <div class="pt-65 res-1199-pt-0">
-                            <!-- section title -->
-                            <div class="section-title">
-                                <div class="title-header">
-                                    <h5>ABOUT AGENCY</h5>
-                                    <h2 class="title">Immigration Services From <strong>Experienced Agents.</strong></h2>
+        <!--Counter Two End -->
+
+        <!--Testimonial One Start-->
+        <section class="testimonial-one">
+            <div class="testimonial-one__inner">
+                <div class="testimonial-one__bg" style="background-image: url({{asset('front')}}/assets/images/backgrounds/testimonial-one-bg.jpg);"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <div class="testimonial-one__left">
+                                <div class="section-title text-left">
+                                    <p class="section-title__tagline"><span>//</span> our testimonials <span>//</span>
+                                    </p>
+                                    <h2 class="section-title__title">What they’re
+                                        talking about us</h2>
                                 </div>
-                            </div><!-- section title end -->
-                            <p>Lorem Ipsum is simply dummy text of the printing ypesetting industry.Professor at Hampden-Sydney been tndustry dard dummy text ever since the 1500s, when aknown contary tonter.</p>
-                            <div class="featuredbox-number">
-                                <!--featured-icon-box-->
-                                <div class="featured-icon-box icon-align-before-content icon-ver_align-top style1">
-                                    <div class="featured-icon">
-                                        <div class="cmt-icon cmt-icon_element-fill cmt-icon_element-color-skincolor cmt-icon_element-size-xs cmt-icon_element-style-rounded">
-                                            <i class="cmt-num ti-info"></i>
-                                        </div>
+                                <p class="testimonial-one__left-text">How to pursue pleasure rationally encounter
+                                    consequences
+                                    that painful again is there anyone who loves.</p>
+                                <div class="testimonial-one__ratting-box">
+                                    <div class="testimonial-one__ratting">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
                                     </div>
-                                    <div class="featured-content">
-                                        <div class="featured-title">
-                                            <h5>We modify whole system</h5>
-                                        </div>
-                                        <div class="featured-desc">
-                                            <p>To guard, Avoid Revealing Too Much, Apply for a Provisional Patent, Trademark.</p>
-                                        </div>
-                                    </div>
-                                </div><!-- featured-icon-box end-->
-                                <!--featured-icon-box-->
-                                <div class="featured-icon-box icon-align-before-content icon-ver_align-top style1">
-                                    <div class="featured-icon">
-                                        <div class="cmt-icon cmt-icon_element-fill cmt-icon_element-color-skincolor cmt-icon_element-size-xs cmt-icon_element-style-rounded">
-                                            <i class="cmt-num ti-info"></i>
-                                        </div>
-                                    </div>
-                                    <div class="featured-content">
-                                        <div class="featured-title">
-                                            <h5>Safeguard for Your Bussiness</h5>
-                                        </div>
-                                        <div class="featured-desc">
-                                            <p>To guard, Avoid Revealing Too Much, Apply for a Provisional Patent, Trademark.</p>
-                                        </div>
-                                    </div>
-                                </div><!-- featured-icon-box end-->
-                                <!--featured-icon-box-->
-                                <div class="featured-icon-box icon-align-before-content icon-ver_align-top style1">
-                                    <div class="featured-icon">
-                                        <div class="cmt-icon cmt-icon_element-fill cmt-icon_element-color-skincolor cmt-icon_element-size-xs cmt-icon_element-style-rounded">
-                                            <i class="cmt-num ti-info"></i>
-                                        </div>
-                                    </div>
-                                    <div class="featured-content">
-                                        <div class="featured-title">
-                                            <h5>Beneficial Strategies </h5>
-                                        </div>
-                                        <div class="featured-desc">
-                                            <p>To guard, Avoid Revealing Too Much, Apply for a Provisional Patent, Trademark.</p>
-                                        </div>
-                                    </div>
-                                </div><!-- featured-icon-box end-->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="testimonials-nav z-index-2">
-                            <div class="testimonial-nav_item">
-                                <div class="nav_item">
-                                    <img class="img-fluid" src="{{asset('/')}}front/assets/images/testimonial/nav-01.jpg" alt="testimonial-nav_item">
-                                </div>
-                            </div>
-                            <div class="testimonial-nav_item">
-                                <div class="nav_item">
-                                    <img class="img-fluid" src="{{asset('/')}}front/assets/images/testimonial/nav-02.jpg" alt="testimonial-nav_item">
-                                </div>
-                            </div>
-                            <div class="testimonial-nav_item">
-                                <div class="nav_item">
-                                    <img class="img-fluid" src="{{asset('/')}}front/assets/images/testimonial/nav-03.jpg" alt="testimonial-nav_item">
-                                </div>
-                            </div>
-                            <div class="testimonial-nav_item">
-                                <div class="nav_item">
-                                    <img class="img-fluid" src="{{asset('/')}}front/assets/images/testimonial/nav-04.jpg" alt="testimonial-nav_item">
+                                    <p>4.9 Average rating</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="cmt-col-bgcolor-yes cmt-bgcolor-skincolor cmt-col-bgimage-yes cmt-bg col-bg-img-one cmt-right-span cmt-bg-pattern spacing-1">
-                            <div class="cmt-col-wrapper-bg-layer cmt-bg-layer">
-                                <div class="cmt-col-wrapper-bg-layer-inner"></div>
-                            </div>
-                            <div class="layer-content">
-                                <div class="testimonials-info">
-                                    <!-- testimonials -->
-                                    <div class="testimonials">
-                                        <div class="testimonial-avatar">
-                                            <div class="testimonial-img">
-                                                <img class="img-fluid" src="{{asset('/')}}front/assets/images/testimonial/01-1.jpg" alt="testimonial-img">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <blockquote class="testimonial-text">I really would like to appreciate Tripzia and the entire team, especially Ms Anandias Alex for helping me get my student visa for the Brunel University. She helped me all way to find the University & right course. She was there for me through the entire process.</blockquote>
-                                            <div class="testimonial-bottom">
-                                                <div class="testimonial-caption cmt-textcolor-white">
-                                                    <h5>RAshley Foster</h5>
-                                                    <label>(CEO 7 Founder)</label>
+                        <div class="col-xl-8">
+                            <div class="testimonial-one__right">
+                                <div class="testimonial-one__img-1">
+                                    <img src="{{asset('front')}}/assets/images/testimonial/testimonial-one-img-1.jpg" alt="">
+                                    <div class="testimonial-one__img-2">
+                                        <img src="{{asset('front')}}/assets/images/testimonial/testimonial-one-img-2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="testimonial-one__carousel owl-carousel owl-theme thm-owl__carousel" data-owl-options='{
+                                    "loop": true,
+                                    "autoplay": true,
+                                    "margin": 30,
+                                    "nav": false,
+                                    "dots": false,
+                                    "smartSpeed": 500,
+                                    "autoplayTimeout": 10000,
+                                    "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+                                    "responsive": {
+                                        "0": {
+                                            "items": 1
+                                        },
+                                        "768": {
+                                                "items": 1
+                                            },
+                                            "992": {
+                                                "items": 1
+                                            },
+                                            "1200": {
+                                                "items": 1
+                                            }
+                                        }
+                                }'>
+                                    <!--Testimonial One Single Start-->
+                                    <div class="item">
+                                        <div class="testimonial-one__single">
+                                            <div class="testimonial-one__client-info-and-quote">
+                                                <div class="testimonial-one__client-info">
+                                                    <h3>Sarah brown</h3>
+                                                    <p>Co Founder</p>
                                                 </div>
-                                                <div class="star-ratings">
-                                                    <ul class="rating">
-                                                        <li><i class="fa fa-star"></i></li>
-                                                        <li><i class="fa fa-star"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div><!-- testimonials end -->
-                                    <!-- testimonials -->
-                                    <div class="testimonials">
-                                        <div class="testimonial-avatar">
-                                            <div class="testimonial-img">
-                                                <img class="img-fluid" src="{{asset('/')}}front/assets/images/testimonial/02-1.jpg" alt="testimonial-img">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <blockquote class="testimonial-text">I really would like to appreciate Tripzia and the entire team, especially Ms Anandias Alex for helping me get my student visa for the Brunel University. She helped me all way to find the University & right course. She was there for me through the entire process.</blockquote>
-                                            <div class="testimonial-bottom">
-                                                <div class="testimonial-caption cmt-textcolor-white">
-                                                    <h5>Alan Sears</h5>
-                                                    <label>(CEO 7 Founder)</label>
-                                                </div>
-                                                <div class="star-ratings">
-                                                    <ul class="rating">
-                                                        <li><i class="fa fa-star"></i></li>
-                                                        <li><i class="fa fa-star"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                    </ul>
+                                                <div class="testimonial-one__quote">
+                                                    <span class="icon-quote"></span>
                                                 </div>
                                             </div>
+                                            <p class="testimonial-one__text">It is due to their excellent service,
+                                                competitive pricing and customer support. It’s through refresing to get
+                                                such
+                                                a personal touch. Duis aute irure dolor in reprehenderit esse cillum.
+                                            </p>
                                         </div>
-                                    </div><!-- testimonials end -->
-                                    <!-- testimonials -->
-                                    <div class="testimonials">
-                                        <div class="testimonial-avatar">
-                                            <div class="testimonial-img">
-                                                <img class="img-fluid" src="{{asset('/')}}front/assets/images/testimonial/03-1.jpg" alt="testimonial-img">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <blockquote class="testimonial-text">I really would like to appreciate Tripzia and the entire team, especially Ms Anandias Alex for helping me get my student visa for the Brunel University. She helped me all way to find the University & right course. She was there for me through the entire process.</blockquote>
-                                            <div class="testimonial-bottom">
-                                                <div class="testimonial-caption cmt-textcolor-white">
-                                                    <h5>Raymon Myers</h5>
-                                                    <label>(CEO 7 Founder)</label>
+                                    </div>
+                                    <!--Testimonial One Single End-->
+                                    <!--Testimonial One Single Start-->
+                                    <div class="item">
+                                        <div class="testimonial-one__single">
+                                            <div class="testimonial-one__client-info-and-quote">
+                                                <div class="testimonial-one__client-info">
+                                                    <h3>David koper</h3>
+                                                    <p>Co Founder</p>
                                                 </div>
-                                                <div class="star-ratings">
-                                                    <ul class="rating">
-                                                        <li><i class="fa fa-star"></i></li>
-                                                        <li><i class="fa fa-star"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                    </ul>
+                                                <div class="testimonial-one__quote">
+                                                    <span class="icon-quote"></span>
                                                 </div>
                                             </div>
+                                            <p class="testimonial-one__text">It is due to their excellent service,
+                                                competitive pricing and customer support. It’s through refresing to get
+                                                such
+                                                a personal touch. Duis aute irure dolor in reprehenderit esse cillum.
+                                            </p>
                                         </div>
-                                    </div><!-- testimonials end -->
-                                    <!-- testimonials -->
-                                    <div class="testimonials">
-                                        <div class="testimonial-avatar">
-                                            <div class="testimonial-img">
-                                                <img class="img-fluid" src="{{asset('/')}}front/assets/images/testimonial/04.jpg" alt="testimonial-img">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <blockquote class="testimonial-text">I really would like to appreciate Tripzia and the entire team, especially Ms Anandias Alex for helping me get my student visa for the Brunel University. She helped me all way to find the University & right course. She was there for me through the entire process.</blockquote>
-                                            <div class="testimonial-bottom">
-                                                <div class="testimonial-caption cmt-textcolor-white">
-                                                    <h5>Jhon Martin</h5>
-                                                    <label>(CEO 7 Founder)</label>
+                                    </div>
+                                    <!--Testimonial One Single End-->
+                                    <!--Testimonial One Single Start-->
+                                    <div class="item">
+                                        <div class="testimonial-one__single">
+                                            <div class="testimonial-one__client-info-and-quote">
+                                                <div class="testimonial-one__client-info">
+                                                    <h3>Alisha martin</h3>
+                                                    <p>Co Founder</p>
                                                 </div>
-                                                <div class="star-ratings">
-                                                    <ul class="rating">
-                                                        <li><i class="fa fa-star"></i></li>
-                                                        <li><i class="fa fa-star"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                        <li><i class="fa fa-star-o"></i></li>
-                                                    </ul>
+                                                <div class="testimonial-one__quote">
+                                                    <span class="icon-quote"></span>
                                                 </div>
                                             </div>
+                                            <p class="testimonial-one__text">It is due to their excellent service,
+                                                competitive pricing and customer support. It’s through refresing to get
+                                                such
+                                                a personal touch. Duis aute irure dolor in reprehenderit esse cillum.
+                                            </p>
                                         </div>
-                                    </div><!-- testimonials end -->
+                                    </div>
+                                    <!--Testimonial One Single End-->
                                 </div>
                             </div>
                         </div>
@@ -518,192 +247,197 @@
                 </div>
             </div>
         </section>
-        <!--testimonial-section end-->
-        <!--blog-section-->
-        <section class="cmt-row blog-section clearfix">
+        <!--Testimonial One End-->
+
+        <!--Video Two Start-->
+        <section class="video-two">
+            <div class="video-two__bg jarallax" data-jarallax="" data-speed="0.2" data-imgposition="50% 0%" style="background-image: url({{asset('front')}}/assets/images/backgrounds/video-two-bg.jpg);"></div>
             <div class="container">
-                <!-- row -->
-                <div class="row align-items-center">
-                    <div class="col-xl-9 col-lg-9 col-md-12">
-                        <!-- section title -->
-                        <div class="section-title">
-                            <div class="title-header">
-                                <h5>our latest news/blog</h5>
-                                <h2 class="title">our work business <strong>innovation!</strong></h2>
+                <div class="video-two__inner">
+                    <div class="video-two__rounded-text">
+                        <a href="https://www.youtube.com/watch?v=ci1KeMZzxbw" class="video-two__curved-circle-box video-popup">
+                            <div class="curved-circle-2">
+                                Watch Our agency portfolio Video
+                            </div><!-- /.curved-circle -->
+                            <div class="video-two__icon">
+                                <span class="fa fa-play"></span>
                             </div>
-                        </div><!-- section title end -->
+                        </a>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-12">
-                        <a class="cmt-btn cmt-btn-size-md cmt-btn-shape-round cmt-btn-style-border cmt-btn-color-dark mb-30 float-lg-right" href="blog-single.html">View More News</a>
+                    <h3 class="video-two__title">Unlock revenue growth
+                        <br> for your business</h3>
+                </div>
+            </div>
+        </section>
+        <!--Video Two End -->
+
+        <!--Team One Start-->
+        <section class="team-one">
+            <div class="container">
+                <div class="section-title text-center">
+                    <p class="section-title__tagline"><span>//</span> our smart people <span>//</span>
+                    </p>
+                    <h2 class="section-title__title">Meet the team behind the
+                        <br> agency success</h2>
+                </div>
+                <div class="row">
+                    <!--Team One Single Start-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="team-one__single">
+                            <div class="team-one__img-box">
+                                <div class="team-one__img">
+                                    <img src="{{asset('front')}}/assets/images/team/team-1-1.jpg" alt="">
+                                </div>
+                                <div class="team-one__share-btn">
+                                    <a href="team-details.html"><span class="fas fa-share-alt"></span></a>
+                                    <ul class="list-unstyled team-one__social">
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-one__content">
+                                <div class="team-one__name-box">
+                                    <h3><a href="team-details.html">Mike hardson</a></h3>
+                                    <p>Developer</p>
+                                </div>
+                                <div class="team-one__arrow">
+                                    <a href="team-details.html"><span class="icon-right-lg-arrow"></span></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div><!-- row end -->
-                <!-- slick_slider -->
-                <div class="row slick_slider mt-15" data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "arrows":false, "autoplay":true, "infinite":true, "centerMode":true, "initialSlide":2, "centerPadding":0, "responsive": [{"breakpoint":870,"settings":{"slidesToShow": 2}}, {"breakpoint":540,"settings":{"slidesToShow": 1}}]}'>
-                    <div class="cmt-box-col-wrapper col-lg-12">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style3">
-                            <div class="cmt-post-thumbnail featured-thumbnail">
-                                <img class="img-fluid" src="{{asset('/')}}front/assets/images/blog/blog-one-720X620-1.jpg" alt="image">
-                            </div>
-                            <div class="featured-content featured-content-post">
-                                <div class="post-header">
-                                    <div class="post-title featured-title">
-                                        <h5><a href="blog-single.html">Why Indian Students Choose To Study Abroad?</a></h5>
-                                    </div>
+                    <!--Team One Single End-->
+                    <!--Team One Single Start-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                        <div class="team-one__single">
+                            <div class="team-one__img-box">
+                                <div class="team-one__img">
+                                    <img src="{{asset('front')}}/assets/images/team/team-1-2.jpg" alt="">
                                 </div>
-                                <div class="post-meta">
-                                    <span class="cmt-meta-line byline">
-                                        <img class="img-fluid" src="{{asset('/')}}front/assets/images/blog/b_thumbb-01-1.jpg" alt="post-img /">Admin
-                                    </span>
-                                    <span class="cmt-meta-line post-date"><i class="fa fa-calendar"></i>12 April 2020</span>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>Many young Indian students today wish to pursue their studies in universities abroad.</p>
-                                </div>
-                                <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="blog-single.html" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
+                                <div class="team-one__share-btn">
+                                    <a href="team-details.html"><span class="fas fa-share-alt"></span></a>
+                                    <ul class="list-unstyled team-one__social">
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
-                        </div><!-- featured-imagebox-post end-->
+                            <div class="team-one__content">
+                                <div class="team-one__name-box">
+                                    <h3><a href="team-details.html">Aleesha brown</a></h3>
+                                    <p>Designer</p>
+                                </div>
+                                <div class="team-one__arrow">
+                                    <a href="team-details.html"><span class="icon-right-lg-arrow"></span></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="cmt-box-col-wrapper col-lg-12">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style3">
-                            <div class="cmt-post-thumbnail featured-thumbnail">
-                                <img class="img-fluid" src="{{asset('/')}}front/assets/images/blog/blog-two-720X620-1.jpg" alt="image">
-                            </div>
-                            <div class="featured-content featured-content-post">
-                                <div class="post-header">
-                                    <div class="post-title featured-title">
-                                        <h5><a href="blog-single.html">To Improve Your Express Entry Application</a></h5>
-                                    </div>
+                    <!--Team One Single End-->
+                    <!--Team One Single Start-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="team-one__single">
+                            <div class="team-one__img-box">
+                                <div class="team-one__img">
+                                    <img src="{{asset('front')}}/assets/images/team/team-1-3.jpg" alt="">
                                 </div>
-                                <div class="post-meta">
-                                    <span class="cmt-meta-line byline">
-                                        <img class="img-fluid" src="{{asset('/')}}front/assets/images/blog/b_thumbb-02-1.jpg" alt="post-img /">Admin
-                                    </span>
-                                    <span class="cmt-meta-line post-date"><i class="fa fa-calendar"></i>12 April 2020</span>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>Three things you can do right now to improve all from the comfort of your own home</p>
-                                </div>
-                                <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="blog-single.html" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
+                                <div class="team-one__share-btn">
+                                    <a href="team-details.html"><span class="fas fa-share-alt"></span></a>
+                                    <ul class="list-unstyled team-one__social">
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
-                        </div><!-- featured-imagebox-post end-->
+                            <div class="team-one__content">
+                                <div class="team-one__name-box">
+                                    <h3><a href="team-details.html">Kevin martin</a></h3>
+                                    <p>Manager</p>
+                                </div>
+                                <div class="team-one__arrow">
+                                    <a href="team-details.html"><span class="icon-right-lg-arrow"></span></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="cmt-box-col-wrapper col-lg-12">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style3">
-                            <div class="cmt-post-thumbnail featured-thumbnail">
-                                <img class="img-fluid" src="{{asset('/')}}front/assets/images/blog/blog-three-720X620-1.jpg" alt="image">
-                            </div>
-                            <div class="featured-content featured-content-post">
-                                <div class="post-header">
-                                    <div class="post-title featured-title">
-                                        <h5><a href="blog-single.html">Employment Insurance for Foreign Nationals</a></h5>
-                                    </div>
-                                </div>
-                                <div class="post-meta">
-                                    <span class="cmt-meta-line byline">
-                                        <img class="img-fluid" src="{{asset('/')}}front/assets/images/blog/b_thumbb-03-1.jpg" alt="post-img /">Admin
-                                    </span>
-                                    <span class="cmt-meta-line post-date"><i class="fa fa-calendar"></i>12 April 2020</span>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>EI system includes all citizens, permanent residents & foreigners on work permits</p>
-                                </div>
-                                <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="blog-single.html" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-post end-->
-                    </div>
-                    <div class="cmt-box-col-wrapper col-lg-12">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style3">
-                            <div class="cmt-post-thumbnail featured-thumbnail">
-                                <img class="img-fluid" src="{{asset('/')}}front/assets/images/blog/blog-four-720X620-1.jpg" alt="image">
-                            </div>
-                            <div class="featured-content featured-content-post">
-                                <div class="post-header">
-                                    <div class="post-title featured-title">
-                                        <h5><a href="blog-single.html">You Will Become As Small Your Desire.</a></h5>
-                                    </div>
-                                </div>
-                                <div class="post-meta">
-                                    <span class="cmt-meta-line byline">
-                                        <img class="img-fluid" src="{{asset('/')}}front/assets/images/blog/b_thumbb-04-1.jpg" alt="post-img /">Admin
-                                    </span>
-                                    <span class="cmt-meta-line post-date"><i class="fa fa-calendar"></i>12 April 2020</span>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>We have a wide range of the bow ties which fit everyday the fashion as a special.</p>
-                                </div>
-                                <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="blog-single.html" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-post end-->
-                    </div>
-                    <div class="cmt-box-col-wrapper col-lg-12">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style3">
-                            <div class="cmt-post-thumbnail featured-thumbnail">
-                                <img class="img-fluid" src="{{asset('/')}}front/assets/images/blog/blog-five-720X620-1.jpg" alt="image">
-                            </div>
-                            <div class="featured-content featured-content-post">
-                                <div class="post-header">
-                                    <div class="post-title featured-title">
-                                        <h5><a href="blog-single.html">To Improve Your Express Entry Application</a></h5>
-                                    </div>
-                                </div>
-                                <div class="post-meta">
-                                    <span class="cmt-meta-line byline">
-                                        <img class="img-fluid" src="{{asset('/')}}front/assets/images/blog/b_thumbb-05-1.jpg" alt="post-img /">Admin
-                                    </span>
-                                    <span class="cmt-meta-line post-date"><i class="fa fa-calendar"></i>12 April 2020</span>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>Three things you can do right now to improve all from the comfort of your own home</p>
-                                </div>
-                                <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="blog-single.html" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-post end-->
-                    </div>
-                    <div class="cmt-box-col-wrapper col-lg-12">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style3">
-                            <div class="cmt-post-thumbnail featured-thumbnail">
-                                <img class="img-fluid" src="{{asset('/')}}front/assets/images/blog/blog-six-720X620-1.jpg" alt="image">
-                            </div>
-                            <div class="featured-content featured-content-post">
-                                <div class="post-header">
-                                    <div class="post-title featured-title">
-                                        <h5><a href="blog-single.html">Employment Insurance for Foreign Nationals</a></h5>
-                                    </div>
-                                </div>
-                                <div class="post-meta">
-                                    <span class="cmt-meta-line byline">
-                                        <img class="img-fluid" src="{{asset('/')}}front/assets/images/blog/b_thumbb-06-1.jpg" alt="post-img /">Admin
-                                    </span>
-                                    <span class="cmt-meta-line post-date"><i class="fa fa-calendar"></i>12 April 2020</span>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>EI system includes all citizens, permanent residents & foreigners on work permits.</p>
-                                </div>
-                                <div class="post-bottom cmt-post-link">
-                                    <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-left cmt-btn-color-skincolor btn-inline" href="blog-single.html" tabindex="0"><i class="fa fa-minus"></i>Read more</a>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-post end-->
+                    <!--Team One Single End-->
+                </div>
+            </div>
+        </section>
+        <!--Team One End-->
+
+        <!--Brand One Start-->
+        <section class="brand-one">
+            <div class="container">
+                <h4 class="brand-one__title">1K+ Brands Trust Us</h4>
+                <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
+                    "0": {
+                        "spaceBetween": 30,
+                        "slidesPerView": 1
+                    },
+                    "375": {
+                        "spaceBetween": 30,
+                        "slidesPerView": 2
+                    },
+                    "575": {
+                        "spaceBetween": 30,
+                        "slidesPerView": 3
+                    },
+                    "767": {
+                        "spaceBetween": 50,
+                        "slidesPerView": 4
+                    },
+                    "991": {
+                        "spaceBetween": 50,
+                        "slidesPerView": 5
+                    },
+                    "1199": {
+                        "spaceBetween": 100,
+                        "slidesPerView": 5
+                    }
+                }}'>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="{{asset('front')}}/assets/images/brand/brand-1-1.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{asset('front')}}/assets/images/brand/brand-1-2.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{asset('front')}}/assets/images/brand/brand-1-3.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{asset('front')}}/assets/images/brand/brand-1-4.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{asset('front')}}/assets/images/brand/brand-1-5.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{asset('front')}}/assets/images/brand/brand-1-1.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{asset('front')}}/assets/images/brand/brand-1-2.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{asset('front')}}/assets/images/brand/brand-1-3.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{asset('front')}}/assets/images/brand/brand-1-4.png" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{asset('front')}}/assets/images/brand/brand-1-5.png" alt="">
+                        </div><!-- /.swiper-slide -->
                     </div>
                 </div>
             </div>
         </section>
-        <!--blog-section end-->
-    </div><!--site-main end-->
+        <!--Brand One End-->
+
 @endsection

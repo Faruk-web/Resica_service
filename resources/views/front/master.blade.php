@@ -71,7 +71,7 @@
                     <div class="main-menu__wrapper-inner">
                         <div class="main-menu__left">
                             <div class="main-menu__logo">
-                                <a href="index.html"><img src="{{ asset('front') }}/assets/images/resources/logo.png" alt="image"></a>
+                                <a href="index.html"><img src="{{ asset('front') }}/assets/images/resources/logo-1.png" alt=""></a>
                             </div>
                             <div class="main-menu__main-menu-box">
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
@@ -162,7 +162,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="about.html">About</a>
+                                        <a href="about.html">About Us </a>
                                     </li>
                                     <li class="dropdown">
                                         <a href="#">Services</a>
@@ -176,7 +176,7 @@
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#">Pages</a>
+                                        <a href="#">NDIS </a>
                                         <ul class="sub-menu">
                                             <li><a href="team.html">Our team</a></li>
                                             <li><a href="team-details.html">Team details</a></li>
@@ -188,31 +188,22 @@
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#">Portfolio</a>
+                                        <a href="#">Services </a>
                                         <ul class="sub-menu">
                                             <li><a href="portfolio.html">Portfolio</a></li>
                                             <li><a href="portfolio-details.html">Portfolio details</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#">Blog</a>
+                                        <a href="#">FAQS</a>
                                         <ul class="sub-menu">
                                             <li><a href="blog.html">Blog</a></li>
                                             <li><a href="blog-sidebar.html">Blog sidebar</a></li>
                                             <li><a href="blog-details.html">Blog details</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown">
-                                        <a href="#">Shop</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="products.html">Products</a></li>
-                                            <li><a href="product-details.html">Product details</a></li>
-                                            <li><a href="cart.html">Cart</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
-                                        </ul>
-                                    </li>
                                     <li>
-                                        <a href="contact.html">Contact</a>
+                                        <a href="contact.html">Contact Us </a>
                                     </li>
                                 </ul>
                             </div>
@@ -222,12 +213,6 @@
                                 <div class="main-menu__search-box">
                                     <a href="#" class="main-menu__search search-toggler icon-magnifying-glass"></a>
                                 </div>
-                                <div class="main-menu__cart-box">
-                                    <a href="cart.html" class="main-menu__cart icon-shopping-cart"></a>
-                                </div>
-                            </div>
-                            <div class="main-menu__btn-box">
-                                <a href="contact.html" class="thm-btn main-menu__btn">Get Free Quote</a>
                             </div>
                         </div>
                     </div>

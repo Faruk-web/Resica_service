@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Home One || aspro || HTML 5 Template </title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('front') }}/assets/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('front') }}/assets/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('front') }}/assets/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="{{ asset('front') }}/assets/images/favicons/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('front') }}/assets/images/resica/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('front') }}/assets/images/resica/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('front') }}/assets/images/resica/logo.png">
+    <link rel="manifest" href="{{ asset('front') }}/assets/images/resica/logo.png">
     <meta name="description" content="aspro HTML 5 Template ">
 
     <!-- fonts -->
@@ -132,7 +132,7 @@
 
         <!--Site Footer Start-->
         <footer class="site-footer">
-            <div class="site-footer__bg" style="background-image: url(assets/images/backgrounds/site-footer-bg.jpg);">
+            <div class="site-footer__bg" style="background-image: url({{ asset('front') }}/assets/images/backgrounds/site-footer-bg.jpg);">
             </div>
             <div class="site-footer__top">
                 <div class="container">
@@ -140,7 +140,7 @@
                         <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="footer-widget__column footer-widget__about">
                                 <div class="footer-widget__logo">
-                                    <a href="index.html"><img style="height:70px" src="{{ asset('front') }}/assets/images/resica/logo.png" alt=""></a>
+                                    <a href="{{ url('/') }}"><img style="height:70px" src="{{ asset('front') }}/assets/images/resica/logo.png" alt=""></a>
                                 </div>
                                 <p class="footer-widget__Contact-text" style="color:#fff">ResicareSA prides itself on being a SA based, Registered NDIS Service Provider that puts you first. Our direction is led by your choice, needs and goals. We aim to create opportunity, promote independence and progression in a safe and non-discriminative environment for all our valued participants. </p>
                             </div>
@@ -207,6 +207,14 @@
                                             <p><a style="color:#fff;margin-left: 6px;" href="{{url('/assist/daily')}}"> Assist Daily Personal Activities</a></p>
                                         </div>
                                     </li>
+                                    <li class="mt-3">
+                                        <div class="icon" style="color:#155fee">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a style="color:#fff;margin-left: 6px;" href="{{url('/health /therapies')}}">Holistic Health Therapies </a></p>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -269,7 +277,15 @@
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            <p><a style="color:#fff;margin-left: 6px;" href="{{url('/assist/daily')}}"> Work with Us</a></p>
+                                            <p><a style="color:#fff;margin-left: 6px;" href="{{url('/work/with')}}"> Work with Us</a></p>
+                                        </div>
+                                    </li>
+                                    <li class="mt-3">
+                                        <div class="icon" style="color:#155fee">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a style="color:#fff;margin-left: 6px;" href="{{url('/health /support')}}">Allied Health Support</a></p>
                                         </div>
                                     </li>
                                 </ul>

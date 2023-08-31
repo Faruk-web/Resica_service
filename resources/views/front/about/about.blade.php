@@ -16,7 +16,7 @@
                 <div class="page-header__inner">
                     <h2>About</h2>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{ url('/') }}">Home</a></li>
                         <li><span>/</span></li>
                         <li class="active">About</li>
                     </ul>
@@ -30,10 +30,10 @@
             <div class="blog-details__content">
                     <ul class="blog-details__meta list-unstyled">
                         <li>
-                            <a href="blog-details.html"></i>About</a>
+                            <a href="{{ url('/about-us') }}"></i>About</a>
                         </li>
                         <li>
-                            <a href="blog-details.html"></i>Us</a>
+                            <a href="{{ url('/about-us') }}"></i>Us</a>
                         </li>
                     </ul>
                     <br>
@@ -268,7 +268,7 @@
                                     <img src="{{asset('front')}}/assets/images/team/team-1-1.jpg" alt="">
                                 </div>
                                 <div class="team-one__share-btn">
-                                    <a href="team-details.html"><span class="fas fa-share-alt"></span></a>
+                                    <a href="#"><span class="fas fa-share-alt"></span></a>
                                     <ul class="list-unstyled team-one__social">
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -279,11 +279,11 @@
                             </div>
                             <div class="team-one__content">
                                 <div class="team-one__name-box">
-                                    <h3><a href="team-details.html">Aftab Cheema</a></h3>
+                                    <h3><a href="#">Aftab Cheema</a></h3>
                                     <p>Manager</p>
                                 </div>
                                 <div class="team-one__arrow">
-                                    <a href="team-details.html"><span class="icon-right-lg-arrow"></span></a>
+                                    <a href="#"><span class="icon-right-lg-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -297,7 +297,7 @@
                                     <img src="{{asset('front')}}/assets/images/team/team-1-2.jpg" alt="">
                                 </div>
                                 <div class="team-one__share-btn">
-                                    <a href="team-details.html"><span class="fas fa-share-alt"></span></a>
+                                    <a href="#"><span class="fas fa-share-alt"></span></a>
                                     <ul class="list-unstyled team-one__social">
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -308,11 +308,11 @@
                             </div>
                             <div class="team-one__content">
                                 <div class="team-one__name-box">
-                                    <h3><a href="team-details.html">Beth Mildenhall</a></h3>
+                                    <h3><a href="#">Beth Mildenhall</a></h3>
                                     <p>Engagment and intake officer</p>
                                 </div>
                                 <div class="team-one__arrow">
-                                    <a href="team-details.html"><span class="icon-right-lg-arrow"></span></a>
+                                    <a href="#"><span class="icon-right-lg-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -326,7 +326,7 @@
                                     <img src="{{asset('front')}}/assets/images/team/team-1-3.jpg" alt="">
                                 </div>
                                 <div class="team-one__share-btn">
-                                    <a href="team-details.html"><span class="fas fa-share-alt"></span></a>
+                                    <a href="#"><span class="fas fa-share-alt"></span></a>
                                     <ul class="list-unstyled team-one__social">
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -337,11 +337,11 @@
                             </div>
                             <div class="team-one__content">
                                 <div class="team-one__name-box">
-                                    <h3><a href="team-details.html">Haroon Anjum</a></h3>
+                                    <h3><a href="#">Haroon Anjum</a></h3>
                                     <p>Finance and Payroll manager</p>
                                 </div>
                                 <div class="team-one__arrow">
-                                    <a href="team-details.html"><span class="icon-right-lg-arrow"></span></a>
+                                    <a href="#"><span class="icon-right-lg-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -354,7 +354,7 @@
                                     <img src="{{asset('front')}}/assets/images/team/team-1-3.jpg" alt="">
                                 </div>
                                 <div class="team-one__share-btn">
-                                    <a href="team-details.html"><span class="fas fa-share-alt"></span></a>
+                                    <a href="#"><span class="fas fa-share-alt"></span></a>
                                     <ul class="list-unstyled team-one__social">
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -365,11 +365,11 @@
                             </div>
                             <div class="team-one__content">
                                 <div class="team-one__name-box">
-                                    <h3><a href="team-details.html">Victoria Mildenhall</a></h3>
+                                    <h3><a href="#">Victoria Mildenhall</a></h3>
                                     <p>HR and Admin Assistatnt</p>
                                 </div>
                                 <div class="team-one__arrow">
-                                    <a href="team-details.html"><span class="icon-right-lg-arrow"></span></a>
+                                    <a href="#"><span class="icon-right-lg-arrow"></span></a>
                                 </div>
                             </div>
                         </div>

@@ -54,7 +54,9 @@ Route::get('/community/participation', [HomeController::class, 'participation'])
 Route::get('/group/activities', [HomeController::class, 'activities'])->name('group.activities');
 Route::get('/sleepover/support', [HomeController::class, 'sleepover'])->name('sleepover.support');
 Route::get('/support/coordination', [HomeController::class, 'coordination'])->name('support.coordination');
-Route::get('/uk', [HomeController::class, 'uk'])->name('uk');
+Route::get('/health /support', [HomeController::class, 'health'])->name('health.support');
+Route::get('/health /therapies', [HomeController::class, 'therapies'])->name('health.therapies');
+Route::get('/work/with', [HomeController::class, 'work'])->name('work.with');
 Route::get('/usa', [HomeController::class, 'usa'])->name('usa');
 Route::get('/about-us', [HomeController::class, 'about'])->name('about');
 Route::get('/contact-us', [HomeController::class, 'contact'])->name('contact');

@@ -77,6 +77,18 @@ class HomeController extends Controller
     {
         return view('front.contact.contact');
     }
+    public function work()
+    {
+        return view('front.contact.work');
+    }
+    public function health()
+    {
+        return view('front.assist.health');
+    }
+    public function therapies()
+    {
+        return view('front.assist.therapies');
+    }
 
 
 }

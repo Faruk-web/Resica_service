@@ -12,10 +12,10 @@
     <!-- Main Sllider Start -->
     <section class="main-slider">
         <div class="main-slider__phone">
-            <a href="tel:926668880000">+92 (666) 888 0000</a>
+            <a href="tel:0422 792 979">0422 792 979 / 08 7085 0633</a>
         </div>
         <div class="main-slider__mail">
-            <a href="mailto:hello@company.com">hello@company.com</a>
+            <a href="#">info@resicaresa.com.au</a>
         </div>
         <div class="main-slider__carousel owl-carousel owl-theme thm-owl__carousel" data-owl-options='{"loop": true, "items": 1, "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"], "margin": 0, "dots": true, "nav": false, "animateOut": "slideOutDown", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 7000, "autoplayHoverPause": false}'>
 
@@ -28,7 +28,7 @@
                         <div class="main-slider__text-box">
                             <p class="main-slider__text">We understand the different types of support services available <br> so you can find the support you need. <br> We will work together to build <br> your capacity and respect your choices.</p>
                         </div>
-                        <h2 class="main-slider__title">TAILOR YOUR LOVED ONE'S<br> <span>SUPPORTWITH RESICARESA</span> <a href="about.html" class="main-slider__btn"><i class="icon-right-arrow1"></i></a></h2>
+                        <h2 class="main-slider__title">TAILOR YOUR LOVED ONE'S<br> <span>SUPPORTWITH RESICARESA</span> <a href="3" class="main-slider__btn"><i class="icon-right-arrow1"></i></a></h2>
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                         <div class="main-slider__text-box">
                             <p class="main-slider__text">Reach out to your local ResicareSA representative to see <br> if we can make a difference in someone`s life.</p>
                         </div>
-                        <h2 class="main-slider__title">DESIGNED TO BE STRAIGHT<br> <span>FORWARD AND STRESS-FREE</span> <a href="about.html" class="main-slider__btn"><i class="icon-right-arrow1"></i></a></h2>
+                        <h2 class="main-slider__title">DESIGNED TO BE STRAIGHT<br> <span>FORWARD AND STRESS-FREE</span> <a href="#" class="main-slider__btn"><i class="icon-right-arrow1"></i></a></h2>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                         <div class="main-slider__text-box">
                             <p class="main-slider__text">We are very Client and Family Focused <br> and Providing Exceptional Services to meet Individualised needs.</p>
                         </div>
-                        <h2 class="main-slider__title">ALL OUR STAFF ARE HIGHLY<br> <span>TRAINED TO SUIT</span> <br> <span>CLIENTS INDI clients individual support.</span> <a href="about.html" class="main-slider__btn"><i class="icon-right-arrow1"></i></a></h2>
+                        <h2 class="main-slider__title">ALL OUR STAFF ARE HIGHLY<br> <span>TRAINED TO SUIT</span> <br> <span>CLIENTS INDI clients individual support.</span> <a href="#" class="main-slider__btn"><i class="icon-right-arrow1"></i></a></h2>
                     </div>
                 </div>
             </div>
@@ -78,19 +78,19 @@
                                 <img src="{{ asset('front') }}/assets/images/services/services-1-1.jpg" alt="">
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="services-details.html">Our Vision</a>
+                                <h3 class="services-one__title"><a href="#">Our Vision</a>
                                 </h3>
                                 <div class="services-one__icon">
                                     <span class="icon-layer"></span>
                                 </div>
                             </div>
                             <div class="services-one__hover-content">
-                                <h3 class="services-one__hover-title"><a href="website-development.html">Our Vision</a>
+                                <h3 class="services-one__hover-title"><a href="#">Our Vision</a>
                                 </h3>
                                 <p class="services-one__hover-text">We won’t stop until we achieve a society where all people living with disabilities enjoy equality and fairness.
                                 </p>
                                 <div class="services-one__hover-arrow">
-                                    <a href="website-development.html"><span class="icon-down-arrow"></span></a>
+                                    <a href="#"><span class="icon-down-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -105,18 +105,18 @@
                                 <img src="{{ asset('front') }}/assets/images/services/services-1-2.jpg" alt="">
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="services-details.html">Our Mission</a>
+                                <h3 class="services-one__title"><a href="#">Our Mission</a>
                                 </h3>
                                 <div class="services-one__icon">
                                     <span class="icon-cellphone"></span>
                                 </div>
                             </div>
                             <div class="services-one__hover-content">
-                                <h3 class="services-one__hover-title"><a href="app-development.html">Our Mission</a>
+                                <h3 class="services-one__hover-title"><a href="#">Our Mission</a>
                                 </h3>
                                 <p class="services-one__hover-text">We are a strong community of workers providing high quality support to those living with a disability, promoting choice and control. We also support able bodied people needing short term or long term respite. </p>
                                 <div class="services-one__hover-arrow">
-                                    <a href="app-development.html"><span class="icon-down-arrow"></span></a>
+                                    <a href="#"><span class="icon-down-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -131,18 +131,18 @@
                                 <img src="{{ asset('front') }}/assets/images/services/services-1-3.jpg" alt="">
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="services-details.html">Our Philosophy</a>
+                                <h3 class="services-one__title"><a href="#">Our Philosophy</a>
                                 </h3>
                                 <div class="services-one__icon">
                                     <span class="icon-megaphone"></span>
                                 </div>
                             </div>
                             <div class="services-one__hover-content">
-                                <h3 class="services-one__hover-title"><a href="digital-marketing.html">Our Philosophy</a>
+                                <h3 class="services-one__hover-title"><a href="#">Our Philosophy</a>
                                 </h3>
                                 <p class="services-one__hover-text">We embrace the principles of continuous improvement and we are committed to the adoption of quality care delivery practices. </p>
                                 <div class="services-one__hover-arrow">
-                                    <a href="digital-marketing.html"><span class="icon-down-arrow"></span></a>
+                                    <a href="#"><span class="icon-down-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -253,7 +253,7 @@
                 </div>
                 <div class="content">
                     <h3><a href="#">Community Participation</a></h3>
-                    <p>Participation in community, social and civic activities is one of the most anticipated service for overall wellbeing.</p>
+                    <p style="font-size: 16px;">Participation in community, social and civic activities is one of the most anticipated service for overall wellbeing.</p>
                 </div>
             </div>
 
@@ -264,7 +264,7 @@
                 </div>
                 <div class="content">
                     <h3><a href="#">Personal Care</a></h3>
-                    <p>We supervise various personal activities of daily life of participants who require support in these activities.</p>
+                    <p style="font-size: 16px;">We supervise various personal activities of daily life of participants who require support in these activities.</p>
                 </div>
             </div>
 
@@ -275,7 +275,7 @@
                 </div>
                 <div class="content">
                     <h3><a href="#">SIL / SDA Accomodation</a></h3>
-                    <p>Participants who are eligible for SDA receive funding for their accommodation as part of their plan.</p>
+                    <p style="font-size: 16px;">Participants who are eligible for SDA receive funding for their accommodation as part of their plan.</p>
                 </div>
             </div>
 
@@ -287,7 +287,7 @@
                 </div>
                 <div class="content">
                     <h3><a href="#">Travel Assist</a></h3>
-                    <p>Our transport support includes enabling participants to build capacity to travel independently.</p>
+                    <p style="font-size: 16px;">Our transport support includes enabling participants to build capacity to travel independently.</p>
                 </div>
             </div>
 
@@ -298,7 +298,7 @@
                 </div>
                 <div class="content">
                     <h3><a href="#">Support Coordination</a></h3>
-                    <p>We are focused on assisting participants to manage and direct their own services.</p>
+                    <p style="font-size: 16px;">We are focused on assisting participants to manage and direct their own services.</p>
                 </div>
             </div>
 
@@ -309,7 +309,7 @@
                 </div>
                 <div class="content">
                     <h3><a href="#">Respite Care</a></h3>
-                    <p>Taking a short break from the carer role is not only deserved - its absolutely essential to making sure you can carry on without becoming exhausted.</p>
+                    <p style="font-size: 16px;"> Taking a short break from the carer role is not only deserved - its absolutely essential to making sure you can carry on without becoming exhausted.</p>
                 </div>
             </div>
         </div>
@@ -331,7 +331,7 @@
                             <img src="{{ asset('front') }}/assets/images/team/team-1-1.jpg" alt="">
                         </div>
                         <div class="team-one__share-btn">
-                            <a href="team-details.html"><span class="fas fa-share-alt"></span></a>
+                            <a href="#"><span class="fas fa-share-alt"></span></a>
                             <ul class="list-unstyled team-one__social">
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -342,11 +342,11 @@
                     </div>
                     <div class="team-one__content">
                         <div class="team-one__name-box">
-                            <h3><a href="team-details.html"> MORPHETT VALE 1.</a></h3>
+                            <h3><a href="#"> MORPHETT VALE 1.</a></h3>
                             <p>Vacancies : 2</p>
                         </div>
                         <div class="team-one__arrow">
-                            <a href="team-details.html"><span class="icon-right-lg-arrow"></span></a>
+                            <a href="#"><span class="icon-right-lg-arrow"></span></a>
                         </div>
                     </div>
                 </div>
@@ -360,7 +360,7 @@
                             <img src="{{ asset('front') }}/assets/images/team/team-1-2.jpg" alt="">
                         </div>
                         <div class="team-one__share-btn">
-                            <a href="team-details.html"><span class="fas fa-share-alt"></span></a>
+                            <a href="#"><span class="fas fa-share-alt"></span></a>
                             <ul class="list-unstyled team-one__social">
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -371,11 +371,11 @@
                     </div>
                     <div class="team-one__content">
                         <div class="team-one__name-box">
-                            <h3><a href="team-details.html"> MORPHETT VALE 2.</a></h3>
+                            <h3><a href="#"> MORPHETT VALE 2.</a></h3>
                             <p>Vacancies : 1</p>
                         </div>
                         <div class="team-one__arrow">
-                            <a href="team-details.html"><span class="icon-right-lg-arrow"></span></a>
+                            <a href="#"><span class="icon-right-lg-arrow"></span></a>
                         </div>
                     </div>
                 </div>
@@ -389,7 +389,7 @@
                             <img src="{{ asset('front') }}/assets/images/team/team-1-3.jpg" alt="">
                         </div>
                         <div class="team-one__share-btn">
-                            <a href="team-details.html"><span class="fas fa-share-alt"></span></a>
+                            <a href="#"><span class="fas fa-share-alt"></span></a>
                             <ul class="list-unstyled team-one__social">
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -431,7 +431,7 @@
                             <div class="services-three__icon">
                                 <span class="icon-webpage"></span>
                             </div>
-                            <h3 class="services-three__title"><a href="website-development.html">Website
+                            <h3 class="services-three__title"><a href="#">Website
                                     <br> solutions</a></h3>
                         </div>
                     </div>
@@ -444,7 +444,7 @@
                             <div class="services-three__icon">
                                 <span class="icon-growth"></span>
                             </div>
-                            <h3 class="services-three__title"><a href="graphic-designing.html">Graphic
+                            <h3 class="services-three__title"><a href="#">Graphic
                                     <br> solutions</a></h3>
                         </div>
                     </div>
@@ -457,7 +457,7 @@
                             <div class="services-three__icon">
                                 <span class="icon-online-shopping"></span>
                             </div>
-                            <h3 class="services-three__title"><a href="digital-marketing.html">Marketing
+                            <h3 class="services-three__title"><a href="#">Marketing
                                     <br> solutions</a></h3>
                         </div>
                     </div>
@@ -470,7 +470,7 @@
                             <div class="services-three__icon">
                                 <span class="icon-planning"></span>
                             </div>
-                            <h3 class="services-three__title"><a href="content-writting.html">Content
+                            <h3 class="services-three__title"><a href="#">Content
                                     <br> solutions</a></h3>
                         </div>
                     </div>
@@ -483,7 +483,7 @@
                             <div class="services-three__icon">
                                 <span class="icon-app-development"></span>
                             </div>
-                            <h3 class="services-three__title"><a href="app-development.html">Application
+                            <h3 class="services-three__title"><a href="#">Application
                                     <br> solutions</a></h3>
                         </div>
                     </div>
@@ -502,8 +502,7 @@
                         <div class="section-title text-left">
                             <h2 class="section-title__title">We’re Changing The World Of Care!</h2>
                         </div>
-                        <p class="why-choose-one__text-2">At ResicareSA, we exist to empower families to make informed choices for their loved ones support. <br>We understand the different types of support available through the NDIS, how to access it and learn about other support products which could enhance their quality of life.</p>
-                        <p class="why-choose-one__text-2"></p>
+                        <p class="why-choose-one__text-2" style="font-size: 18px;">At ResicareSA, we exist to empower families to make informed choices for their loved ones support. <br>We understand the different types of support available through the NDIS, how to access it and learn about other support products which could enhance their quality of life.</p>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
@@ -536,7 +535,7 @@
                         <div class="section-title text-left">
                             <h2 class="section-title__title">Covid-19 Infection Control Training</h2>
                         </div>
-                        <p class="why-choose-one__text-2">All of our staff have successfully completed the Australian Government’s Department of Health online course on COVID-19 Infection Control Training. This course is specifically designed for care workers. The course is relevant for carers working in shared care facilities (including short term accommodation) and carers working in people’s home.</p>
+                        <p class="why-choose-one__text-2" style="font-size: 18px;">All of our staff have successfully completed the Australian Government’s Department of Health online course on COVID-19 Infection Control Training. This course is specifically designed for care workers. The course is relevant for carers working in shared care facilities (including short term accommodation) and carers working in people’s home.</p>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">

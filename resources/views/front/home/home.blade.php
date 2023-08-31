@@ -3,6 +3,11 @@
 @section('title')
     Home
 @endsection
+<style>
+    .main-slider__title {
+
+}
+</style>
 @section('body')
     <!-- Main Sllider Start -->
     <section class="main-slider">
@@ -15,46 +20,43 @@
         <div class="main-slider__carousel owl-carousel owl-theme thm-owl__carousel" data-owl-options='{"loop": true, "items": 1, "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"], "margin": 0, "dots": true, "nav": false, "animateOut": "slideOutDown", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 7000, "autoplayHoverPause": false}'>
 
             <div class="item main-slider__slide-1">
-                <div class="main-slider__bg" style="background-image: url({{ asset('front') }}/assets/images/backgrounds/slider-1-1.jpg);">
+                <div class="main-slider__bg" style="background-image: url({{ asset('front') }}/assets/images/resica/1.png);">
                 </div><!-- /.slider-one__bg -->
                 <div class="container">
                     <div class="main-slider__content">
                         <p class="main-slider__star">*</p>
                         <div class="main-slider__text-box">
-                            <p class="main-slider__text">Duis aute lorem ipsum is simply free <br> text available in
-                                the market today <br> reprehen.</p>
+                            <p class="main-slider__text">We understand the different types of support services available <br> so you can find the support you need. <br> We will work together to build <br> your capacity and respect your choices.</p>
                         </div>
-                        <h2 class="main-slider__title">the brand <br> <span>uniqueness</span> <a href="about.html" class="main-slider__btn"><i class="icon-right-arrow1"></i></a></h2>
+                        <h2 class="main-slider__title">TAILOR YOUR LOVED ONE'S<br> <span>SUPPORTWITH RESICARESA</span> <a href="about.html" class="main-slider__btn"><i class="icon-right-arrow1"></i></a></h2>
                     </div>
                 </div>
             </div>
 
             <div class="item main-slider__slide-2">
-                <div class="main-slider__bg" style="background-image: url({{ asset('front') }}/assets/images/backgrounds/slider-1-2.jpg);">
+                <div class="main-slider__bg" style="background-image: url({{ asset('front') }}/assets/images/resica/2.png);">
                 </div><!-- /.slider-one__bg -->
                 <div class="container">
                     <div class="main-slider__content">
                         <p class="main-slider__star">*</p>
                         <div class="main-slider__text-box">
-                            <p class="main-slider__text">Duis aute lorem ipsum is simply free <br> text available in
-                                the market today <br> reprehen.</p>
+                            <p class="main-slider__text">Reach out to your local ResicareSA representative to see <br> if we can make a difference in someone`s life.</p>
                         </div>
-                        <h2 class="main-slider__title">the brand <br> <span>uniqueness</span> <a href="about.html" class="main-slider__btn"><i class="icon-right-arrow1"></i></a></h2>
+                        <h2 class="main-slider__title">DESIGNED TO BE STRAIGHT<br> <span>FORWARD AND STRESS-FREE</span> <a href="about.html" class="main-slider__btn"><i class="icon-right-arrow1"></i></a></h2>
                     </div>
                 </div>
             </div>
 
             <div class="item main-slider__slide-3">
-                <div class="main-slider__bg" style="background-image: url({{ asset('front') }}/assets/images/backgrounds/slider-1-3.jpg);">
+                <div class="main-slider__bg" style="background-image: url({{ asset('front') }}/assets/images/resica/3.png);">
                 </div><!-- /.slider-one__bg -->
                 <div class="container">
                     <div class="main-slider__content">
                         <p class="main-slider__star">*</p>
                         <div class="main-slider__text-box">
-                            <p class="main-slider__text">Duis aute lorem ipsum is simply free <br> text available in
-                                the market today <br> reprehen.</p>
+                            <p class="main-slider__text">We are very Client and Family Focused <br> and Providing Exceptional Services to meet Individualised needs.</p>
                         </div>
-                        <h2 class="main-slider__title">the brand <br> <span>uniqueness</span> <a href="about.html" class="main-slider__btn"><i class="icon-right-arrow1"></i></a></h2>
+                        <h2 class="main-slider__title">ALL OUR STAFF ARE HIGHLY<br> <span>TRAINED TO SUIT</span> <br> <span>CLIENTS INDI clients individual support.</span> <a href="about.html" class="main-slider__btn"><i class="icon-right-arrow1"></i></a></h2>
                     </div>
                 </div>
             </div>
@@ -163,21 +165,21 @@
                     <div class="testimonial-two__thumb-item">
                         <div class="testimonial-two__img-holder-box">
                             <div class="testimonial-two__img-holder">
-                                <img src="assets/images/testimonial/testimonial-2-1.jpg" alt="">
+                                <img src="{{ asset('front') }}/assets/images/testimonial/testimonial-2-1.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-two__thumb-item">
                         <div class="testimonial-two__img-holder-box">
                             <div class="testimonial-two__img-holder">
-                                <img src="assets/images/testimonial/testimonial-2-2.jpg" alt="">
+                                <img src="{{ asset('front') }}/assets/images/testimonial/testimonial-2-2.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-two__thumb-item">
                         <div class="testimonial-two__img-holder-box">
                             <div class="testimonial-two__img-holder">
-                                <img src="assets/images/testimonial/testimonial-2-3.jpg" alt="">
+                                <img src="{{ asset('front') }}/assets/images/testimonial/testimonial-2-3.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -189,41 +191,45 @@
                     <div class="testimonial-two__item">
                         <div class="testimonial-two__inner-content">
                             <div class="testimonial-two__inner-content-img">
-                                <img src="assets/images/testimonial/testimonial-two-content-img-1-1.jpg" alt="">
+                                <img src="{{ asset('front') }}/assets/images/testimonial/testimonial-two-content-img-1-1.jpg" alt="">
                             </div>
                             <div class="testimonial-two__inner-content-box">
-                                <p class="testimonial-two__text">This is due to their excellent service,
-                                    competitive pricing and customer support. It’s throughly refresing to get
-                                    such a personal touch.</p>
-                                <h3 class="testimonial-two__client-name" style="color:#fff">Dainl christine <span> . Co
-                                        founder</span> </h3>
+                                <p class="testimonial-two__text">The team at Resicare Port Agusta gave him the best home away from home we could have asked for. They were all so caring, friendly, and considerate. Ian knew he was in the best care possible, even his carers from Resicare were by his side day and night, so he was not alone. For this i will forever grateful for the care and support they supported not just Ian, but the immediate family with during the times we were not able to be there.</p>
+                                <h3 class="testimonial-two__client-name" style="color:#fff">Client's Family <span> ResicareSA</span> </h3>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-two__item">
                         <div class="testimonial-two__inner-content">
                             <div class="testimonial-two__inner-content-img">
-                                <img src="assets/images/testimonial/testimonial-two-content-img-1-2.jpg" alt="">
+                                <img src="{{ asset('front') }}/assets/images/testimonial/testimonial-two-content-img-1-2.jpg" alt="">
                             </div>
                             <div class="testimonial-two__inner-content-box">
-                                <p class="testimonial-two__text">This is due to their excellent service,
-                                    competitive pricing and customer support. It’s throughly refresing to get
-                                    such a personal touch.</p>
-                                <h3 class="testimonial-two__client-name " style="color:#fff">Christine eve <span> . Co
-                                        founder</span> </h3>
+                                <p class="testimonial-two__text"> Although the move was stressful, this has been the best decision the family has made and we are so grateful for all that you have done to support us.</p>
+                                <h3 class="testimonial-two__client-name " style="color:#fff">Maree<span> ResicareSA</span> </h3>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-two__item">
                         <div class="testimonial-two__inner-content">
                             <div class="testimonial-two__inner-content-img">
-                                <img src="assets/images/testimonial/testimonial-two-content-img-1-3.jpg" alt="">
+                                <img src="{{ asset('front') }}/assets/images/testimonial/testimonial-two-content-img-1-3.jpg" alt="">
                             </div>
                             <div class="testimonial-two__inner-content-box">
-                                <p class="testimonial-two__text">This is due to their excellent service,
-                                    competitive pricing and customer support. It’s throughly refresing to get
-                                    such a personal touch.</p>
-                                <h3 class="testimonial-two__client-name " style="color:#fff">Kevin copper <span> . Co founder</span>
+                                <p class="testimonial-two__text"> The care of Resicare SA is so incredible different that within a short time span 'B' has lost weight and also reflects in her behaviour a different outlook, not depressed, radiantly participates in discussions and shows that for the first time enjoys being alive and likes her accommodation because of the personal touch of care. A team that just releases unconditional love of three women within Resicare, have really broken down the barriers of a broken spirit and have built these bridges of trust.</p>
+                                <h3 class="testimonial-two__client-name " style="color:#fff">Client's Family <span> ResicareSA</span>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-two__item">
+                        <div class="testimonial-two__inner-content">
+                            <div class="testimonial-two__inner-content-img">
+                                <img src="{{ asset('front') }}/assets/images/testimonial/testimonial-two-content-img-1-3.jpg" alt="">
+                            </div>
+                            <div class="testimonial-two__inner-content-box">
+                                <p class="testimonial-two__text"> I give you 5 stars for the kindness, support, and professionalism you have shown 'S' and myself. You have all gone above and beyond to accommodate her. I will be recommending you to anyone I come in contact with that is looking for SDA/SIL Housing. Thank you for all you have done.</p>
+                                <h3 class="testimonial-two__client-name " style="color:#fff">Another Client <span> ResicareSA</span>
                                 </h3>
                             </div>
                         </div>
@@ -336,8 +342,8 @@
                     </div>
                     <div class="team-one__content">
                         <div class="team-one__name-box">
-                            <h3><a href="team-details.html">Mike hardson</a></h3>
-                            <p>Developer</p>
+                            <h3><a href="team-details.html"> MORPHETT VALE 1.</a></h3>
+                            <p>Vacancies : 2</p>
                         </div>
                         <div class="team-one__arrow">
                             <a href="team-details.html"><span class="icon-right-lg-arrow"></span></a>
@@ -365,8 +371,8 @@
                     </div>
                     <div class="team-one__content">
                         <div class="team-one__name-box">
-                            <h3><a href="team-details.html">Aleesha brown</a></h3>
-                            <p>Designer</p>
+                            <h3><a href="team-details.html"> MORPHETT VALE 2.</a></h3>
+                            <p>Vacancies : 1</p>
                         </div>
                         <div class="team-one__arrow">
                             <a href="team-details.html"><span class="icon-right-lg-arrow"></span></a>
@@ -394,8 +400,8 @@
                     </div>
                     <div class="team-one__content">
                         <div class="team-one__name-box">
-                            <h3><a href="team-details.html">Kevin martin</a></h3>
-                            <p>Manager</p>
+                            <h3><a href="team-details.html"> PARAFIELD 1.</a></h3>
+                            <p> PARAFIELD 1.</p>
                         </div>
                         <div class="team-one__arrow">
                             <a href="team-details.html"><span class="icon-right-lg-arrow"></span></a>
@@ -410,7 +416,7 @@
 <!--Team One End-->
 <!--Services Three Start-->
 <section class="services-three">
-    <div class="services-three__bg" style="background-image: url(assets/images/backgrounds/services-three-bg.jpg);"></div>
+    <div class="services-three__bg" style="background-image: url({{ asset('front') }}/assets/images/backgrounds/services-three-bg.jpg);"></div>
     <div class="container">
         <div class="section-title text-center">
             <h2>Why ResicareSA? </h2>
@@ -420,7 +426,7 @@
                 <li>
                     <div class="services-three__single wow fadeInUp" data-wow-delay="100ms">
                         <div class="services-three__single-inner">
-                            <div class="services-three__single-bg" style="background-image: url(assets/images/backgrounds/services-three-single-bg.jpg);">
+                            <div class="services-three__single-bg" style="background-image: url({{ asset('front') }}/assets/images/backgrounds/services-three-single-bg.jpg);">
                             </div>
                             <div class="services-three__icon">
                                 <span class="icon-webpage"></span>
@@ -433,7 +439,7 @@
                 <li>
                     <div class="services-three__single wow fadeInUp" data-wow-delay="200ms">
                         <div class="services-three__single-inner">
-                            <div class="services-three__single-bg" style="background-image: url(assets/images/backgrounds/services-three-single-bg.jpg);">
+                            <div class="services-three__single-bg" style="background-image: url({{ asset('front') }}/assets/images/backgrounds/services-three-single-bg.jpg);">
                             </div>
                             <div class="services-three__icon">
                                 <span class="icon-growth"></span>
@@ -446,7 +452,7 @@
                 <li>
                     <div class="services-three__single wow fadeInUp" data-wow-delay="300ms">
                         <div class="services-three__single-inner">
-                            <div class="services-three__single-bg" style="background-image: url(assets/images/backgrounds/services-three-single-bg.jpg);">
+                            <div class="services-three__single-bg" style="background-image: url({{ asset('front') }}/assets/images/backgrounds/services-three-single-bg.jpg);">
                             </div>
                             <div class="services-three__icon">
                                 <span class="icon-online-shopping"></span>
@@ -459,7 +465,7 @@
                 <li>
                     <div class="services-three__single wow fadeInUp" data-wow-delay="400ms">
                         <div class="services-three__single-inner">
-                            <div class="services-three__single-bg" style="background-image: url(assets/images/backgrounds/services-three-single-bg.jpg);">
+                            <div class="services-three__single-bg" style="background-image: url({{ asset('front') }}/assets/images/backgrounds/services-three-single-bg.jpg);">
                             </div>
                             <div class="services-three__icon">
                                 <span class="icon-planning"></span>
@@ -472,7 +478,7 @@
                 <li>
                     <div class="services-three__single wow fadeInUp" data-wow-delay="500ms">
                         <div class="services-three__single-inner">
-                            <div class="services-three__single-bg" style="background-image: url(assets/images/backgrounds/services-three-single-bg.jpg);">
+                            <div class="services-three__single-bg" style="background-image: url({{ asset('front') }}/assets/images/backgrounds/services-three-single-bg.jpg);">
                             </div>
                             <div class="services-three__icon">
                                 <span class="icon-app-development"></span>
@@ -489,15 +495,15 @@
 <!--Services Three End -->
     <!--Why Choose One Start-->
     <section class="why-choose-one">
-        <div class="container">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col-xl-6 col-lg-6">
                     <div class="why-choose-one__left">
                         <div class="section-title text-left">
                             <h2 class="section-title__title">We’re Changing The World Of Care!</h2>
                         </div>
-                        <p class="why-choose-one__text-2">At ResicareSA, we exist to empower families to make informed choices for their loved ones support.</p>
-                        <p class="why-choose-one__text-2">We understand the different types of support available through the NDIS, how to access it and learn about other support products which could enhance their quality of life.</p>
+                        <p class="why-choose-one__text-2">At ResicareSA, we exist to empower families to make informed choices for their loved ones support. <br>We understand the different types of support available through the NDIS, how to access it and learn about other support products which could enhance their quality of life.</p>
+                        <p class="why-choose-one__text-2"></p>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
@@ -515,87 +521,22 @@
         <div class="container">
             <div class="m-5 text-center">
                 <h2 class="text-white">Message From Our CEO</h2>
-                <p class="text-white">
+                <p class="text-white mt-3"style="font-size: 18px;">
                     “ ResicareSA Pty Ltd is a company that was established with the sole aim of offering disability services that puts the participant as a first priority in creating opportunities promoting independence and progression in a safe and non-discriminating environment. ResicareSA prides itself on being a SA based, Registered NDIS Service Provider that puts you first. Our direction is led by your choice, needs and goals. We aim to create opportunity, promote independence and progression in a safe and non-discriminative environment for all our valued participants. ”
                 </p>
             </div>
         </div>
     </section>
     <!--Brand One Start-->
-    <section class="brand-one">
-        <div class="container">
-            <h4 class="brand-one__title mt-5">1K+ Brands Trust Us</h4>
-            <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
-                "0": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 1
-                },
-                "375": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 2
-                },
-                "575": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 3
-                },
-                "767": {
-                    "spaceBetween": 50,
-                    "slidesPerView": 4
-                },
-                "991": {
-                    "spaceBetween": 50,
-                    "slidesPerView": 5
-                },
-                "1199": {
-                    "spaceBetween": 100,
-                    "slidesPerView": 5
-                }
-            }}'>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="{{ asset('front') }}/assets/images/brand/brand-1-1.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{ asset('front') }}/assets/images/brand/brand-1-2.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{ asset('front') }}/assets/images/brand/brand-1-3.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{ asset('front') }}/assets/images/brand/brand-1-4.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{ asset('front') }}/assets/images/brand/brand-1-5.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{ asset('front') }}/assets/images/brand/brand-1-1.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{ asset('front') }}/assets/images/brand/brand-1-2.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{ asset('front') }}/assets/images/brand/brand-1-3.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{ asset('front') }}/assets/images/brand/brand-1-4.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{ asset('front') }}/assets/images/brand/brand-1-5.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="why-choose-one">
-        <div class="container">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col-xl-6 col-lg-6">
                     <div class="why-choose-one__left">
                         <div class="section-title text-left">
-                            <h2 class="section-title__title">We’re Changing The World Of Care!</h2>
+                            <h2 class="section-title__title">Covid-19 Infection Control Training</h2>
                         </div>
-                        <p class="why-choose-one__text-2">At ResicareSA, we exist to empower families to make informed choices for their loved ones support.</p>
-                        <p class="why-choose-one__text-2">We understand the different types of support available through the NDIS, how to access it and learn about other support products which could enhance their quality of life.</p>
+                        <p class="why-choose-one__text-2">All of our staff have successfully completed the Australian Government’s Department of Health online course on COVID-19 Infection Control Training. This course is specifically designed for care workers. The course is relevant for carers working in shared care facilities (including short term accommodation) and carers working in people’s home.</p>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">

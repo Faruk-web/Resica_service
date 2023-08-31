@@ -71,7 +71,8 @@
                     <div class="main-menu__wrapper-inner">
                         <div class="main-menu__left">
                             <div class="main-menu__logo">
-                                <a href="index.html"><img src="{{ asset('front') }}/assets/images/resources/logo-1.png" alt=""></a>
+                                <a href="{{url('/')}}"><img style="height:70px;" src="{{ asset('front') }}/assets/images/resica/logo.png" alt=""></a>
+                                <a href="{{url('/')}}"><img style="height:50px;" src="{{ asset('front') }}/assets/images/resica/logo2.png" alt=""></a>
                             </div>
                             <div class="main-menu__main-menu-box">
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
@@ -83,6 +84,14 @@
                                         <a href="{{url('/about-us')}}">About Us </a>
                                     </li>
                                     <li class="dropdown">
+                                        <a href="#">NDIS </a>
+                                        <ul class="sub-menu">
+                                            <li><a href="{{url('/andis')}}">NDIS Over View</a></li>
+                                            <li><a href="{{url('/pricing')}}">Pricing</a></li>
+                                            <li><a href="{{url('/booklets')}}">Booklets</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
                                         <a href="#">Services</a>
                                         <ul class="sub-menu">
                                             <li><a href="{{url('/assist/daily')}}">Assist Daily Personal Activities</a></li>
@@ -92,21 +101,6 @@
                                             <li><a href="{{url('/group/activities')}}">Group / Centre Activities</a></li>
                                             <li><a href="{{url('/sleepover/support')}}">Sleepover Support</a></li>
                                             <li><a href="{{url('/support/coordination')}}">Respite / Support Coordination</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#">NDIS </a>
-                                        <ul class="sub-menu">
-                                            <li><a href="{{url('/ndis')}}">NDIS Over View</a></li>
-                                            <li><a href="{{url('/pricing')}}">Pricing</a></li>
-                                            <li><a href="{{url('/booklets')}}">Booklets</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#">Services </a>
-                                        <ul class="sub-menu">
-                                            <li><a href="portfolio.html">Portfolio</a></li>
-                                            <li><a href="portfolio-details.html">Portfolio details</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
@@ -143,26 +137,75 @@
             <div class="site-footer__top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-2 col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="footer-widget__column footer-widget__about">
                                 <div class="footer-widget__logo">
-                                    <a href="index.html"><img src="assets/images/resources/logo-1.png" alt=""></a>
+                                    <a href="index.html"><img style="height:70px" src="{{ asset('front') }}/assets/images/resica/logo.png" alt=""></a>
                                 </div>
+                                <p class="footer-widget__Contact-text" style="color:#fff">ResicareSA prides itself on being a SA based, Registered NDIS Service Provider that puts you first. Our direction is led by your choice, needs and goals. We aim to create opportunity, promote independence and progression in a safe and non-discriminative environment for all our valued participants. </p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                             <div class="footer-widget__column footer-widget__Contact">
                                 <div class="footer-widget__title-box">
-                                    <h3 class="footer-widget__title">Contact</h3>
+                                    <h3 class="footer-widget__title">Services</h3>
                                 </div>
-                                <p class="footer-widget__Contact-text">33 Road Broklyn Street, 600
-                                    <br> New York, USA</p>
                                 <ul class="footer-widget__Contact-list list-unstyled">
-                                    <li>
-                                        <p><a href="mailto:hello@company.com">hello@company.com</a></p>
+                                    <li class="mt-3">
+                                        <div class="icon" style="color:#155fee">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a style="color:#fff;margin-left: 6px;" href="{{url('/assist/daily')}}"> Assist Daily Personal Activities</a></p>
+                                        </div>
                                     </li>
-                                    <li>
-                                        <p><a href="tel:+926668880000">+92 (666) 888 0000</a></p>
+                                    <li class="mt-3">
+                                        <div class="icon" style="color:#155fee">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a style="color:#fff;margin-left: 6px;"href="{{url('/assist/travel')}}"> Assist Travel / Transport</a></p>
+                                        </div>
+                                    </li>
+                                    <li class="mt-3">
+                                        <div class="icon" style="color:#155fee">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a style="color:#fff;margin-left: 6px;"href="{{url('/behaviour/support')}}"> Behaviour Support</a></p>
+                                        </div>
+                                    </li>
+                                    <li class="mt-3">
+                                        <div class="icon" style="color:#155fee">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a style="color:#fff;margin-left: 6px;" href="{{url('/community/participation')}}"> Community Participation</a></p>
+                                        </div>
+                                    </li>
+                                    <li class="mt-3">
+                                        <div class="icon" style="color:#155fee">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a style="color:#fff;margin-left: 6px;" href="{{url('/group/activities')}}"> Group / Centre Activities</a></p>
+                                        </div>
+                                    </li>
+                                    <li class="mt-3">
+                                        <div class="icon" style="color:#155fee">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a style="color:#fff;margin-left: 6px;" href="{{url('/sleepover/support')}}"> Sleepover Support</a></p>
+                                        </div>
+                                    </li>
+                                    <li class="mt-3">
+                                        <div class="icon" style="color:#155fee">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a style="color:#fff;margin-left: 6px;" href="{{url('/assist/daily')}}"> Assist Daily Personal Activities</a></p>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
@@ -170,38 +213,110 @@
                         <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                             <div class="footer-widget__column footer-widget__link">
                                 <div class="footer-widget__title-box">
-                                    <h3 class="footer-widget__title">Explore</h3>
+                                    <h3 class="footer-widget__title">Quick Links</h3>
                                 </div>
-                                <ul class="footer-widget__link-list list-unstyled">
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="team.html">Our Team</a></li>
-                                    <li><a href="products.html">Shop</a></li>
-                                    <li><a href="portfolio.html">Latest Portfolio</a></li>
-                                    <li><a href="blog.html">News & Media</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                <ul class="footer-widget__Contact-list list-unstyled">
+                                    <li class="mt-3">
+                                        <div class="icon" style="color:#155fee">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a style="color:#fff;margin-left: 6px;" href="{{url('/about-us')}}"> About Us</a></p>
+                                        </div>
+                                    </li>
+                                    <li class="mt-3">
+                                        <div class="icon" style="color:#155fee">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a style="color:#fff;margin-left: 6px;"href="{{url('/andis')}}"> NDIS Overview</a></p>
+                                        </div>
+                                    </li>
+                                    <li class="mt-3">
+                                        <div class="icon" style="color:#155fee">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a style="color:#fff;margin-left: 6px;"href="{{url('/pricing')}}"> NDIS Pricing</a></p>
+                                        </div>
+                                    </li>
+                                    <li class="mt-3">
+                                        <div class="icon" style="color:#155fee">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a style="color:#fff;margin-left: 6px;" href="{{url('/booklets')}}"> NDIS Booklets and Factsheets</a></p>
+                                        </div>
+                                    </li>
+                                    <li class="mt-3">
+                                        <div class="icon" style="color:#155fee">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a style="color:#fff;margin-left: 6px;" href="{{url('/fags')}}"> FAQs</a></p>
+                                        </div>
+                                    </li>
+                                    <li class="mt-3">
+                                        <div class="icon" style="color:#155fee">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a style="color:#fff;margin-left: 6px;" href="{{url('/contact-us')}}"> Contact Us</a></p>
+                                        </div>
+                                    </li>
+                                    <li class="mt-3">
+                                        <div class="icon" style="color:#155fee">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p><a style="color:#fff;margin-left: 6px;" href="{{url('/assist/daily')}}"> Work with Us</a></p>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                            <div class="footer-widget__column footer-widget__newsletter">
-                                <div class="footer-widget__title-box">
-                                    <h3 class="footer-widget__title">Newsletter</h3>
-                                </div>
-                                <p class="footer-widget__newsletter-text">Signup for our daily news & articles</p>
-                                <form class="footer-widget__email-box" data-url="MC_FORM_URL">
-                                    <div class="footer-widget__email-input-box">
-                                        <input type="email" placeholder="Email address" name="email">
+                        <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                                <div class="contact-page__left">
+                                    <div class="footer-widget__title-box">
+                                        <h3 class="footer-widget__title">Contact Us</h3>
                                     </div>
-                                    <button type="submit" class="footer-widget__btn"><i class="fas fa-paper-plane"></i></button>
-                                </form>
-                                <div class="mc-form__response"></div>
-                                <div class="site-footer__social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook"></i></a>
-                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <ul class="contact-page__points list-unstyled">
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-help"></span>
+                                            </div>
+                                            <div class="content">
+                                                <p>Call</p>
+                                                <h4><a href="tel:+923076806860" style="color:#fff">0422 792 979 / 08 7085 0633</a></h4>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-mailbox"></span>
+                                            </div>
+                                            <div class="content">
+                                                <p>Email</p>
+                                                <h4><a href="info@resicaresa.com.au" style="color:#fff">info@resicaresa.com.au</a></h4>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-maps-and-flags"></span>
+                                            </div>
+                                            <div class="content" >
+                                                <p>Location</p>
+                                                <h4 style="color:#fff">Suite 1, 2 Kincraig Crescent,
+                                                    Modbury, SA, 5092 Australia</h4>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="contact-page__social">
+                                        <a href="https://www.facebook.com/info.resicaresa"><i class="fab fa-facebook"></i></a>
+                                        <a href="https://twitter.com/Resicare_SA?lang=en"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://www.instagram.com/resicaresa/"><i class="fab fa-instagram"></i></a>
+                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    </div>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -211,7 +326,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text">© Copyright 2023 by <a href="#">Company.com</a></p>
+                                <p class="site-footer__bottom-text">© Copyright 2023 ResicareSA . All Rights Reserved by<a href="https://resicaresa.com.au/">ResicareSA</a></p>
                             </div>
                         </div>
                     </div>

@@ -395,7 +395,7 @@ ul {
 .section-title__title {
   margin: 0;
   color: var(--aspro-black);
-  font-size: 50px;
+  font-size: 42px;
   line-height: 60px;
   font-weight: 700;
   margin-top: 3px;
@@ -1740,12 +1740,13 @@ ul {
 }
 
 .main-slider__title {
-  position: relative;
-  display: inline-block;
-  font-size: 150px;
-  color: var(--aspro-white);
-  font-weight: 700;
-  line-height: 130px;
+    position: relative;
+    display: inline-block;
+    font-size: 30PX;
+    color: var(--aspro-white);
+    font-weight: 625;
+    line-height: 48px;
+    /* letter-spacing: -2.04; */
   letter-spacing: -0.04em;
   opacity: 0;
   visibility: hidden;
@@ -1768,20 +1769,20 @@ ul {
 .main-slider__title span:before {
   content: "";
   position: absolute;
-  top: 10px;
-  left: 9px;
-  right: 0;
-  bottom: -17px;
+  top: -3px;
+    left: -9px;
+    right: -11px;
+    bottom: -10px;
   background-color: var(--aspro-base);
   opacity: .88;
   z-index: -1;
 }
 
 .main-slider__btn {
-  position: absolute;
-  bottom: -28px;
-  right: -198px;
-  font-size: 161px;
+    position: absolute;
+    bottom: -155px;
+    right: -198px;
+    font-size: 113px;
   color: var(--aspro-base);
   transform: rotate(45deg);
   -webkit-transition: all 500ms ease;
@@ -9437,10 +9438,10 @@ ul {
 }
 
 .pricing-page__price {
-  font-size: 34px;
-  font-weight: 700;
-  line-height: 35px;
-  letter-spacing: 0;
+    font-size: 18px;
+    font-weight: 706;
+    line-height: 28px;
+    letter-spacing: 0px;
 }
 
 .pricing-page__price-sub-title {
@@ -10306,11 +10307,11 @@ ul {
 }
 
 .services-details__documents .content p {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0.1em;
-  margin-top: 3px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    margin-top: 17px;
 }
 
 .services-details__right {

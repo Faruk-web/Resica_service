@@ -10,7 +10,7 @@
 
         <!--Page Header Start-->
         <section class="page-header">
-            <div class="page-header__bg" style="background-image: url({{asset('front')}}/assets/images/backgrounds/page-header-bg.jpg);">
+            <div class="page-header__bg" style="background-image: url({{asset('front')}}/assets/images/resica/about.png);">
             </div>
             <div class="container">
                 <div class="page-header__inner">
@@ -30,36 +30,20 @@
             <div class="blog-details__content">
                     <ul class="blog-details__meta list-unstyled">
                         <li>
-                            <a href="blog-details.html"><i class="fas fa-tags"></i>Design</a>
+                            <a href="blog-details.html"></i>About</a>
                         </li>
                         <li>
-                            <a href="blog-details.html"><i class="fas fa-comments"></i>2 Comments</a>
+                            <a href="blog-details.html"></i>Us</a>
                         </li>
                     </ul>
                     <br>
-                    <h3 class="blog-details__title">Trending code settings for a nice portfolio</h3>
-                    <p class="blog-details__text-1">There are many variations of passages of Lorem Ipsum
-                        available, but majority have suffered alteration in some form, by injected humour,
-                        or randomised words which don't look even slightly believable. If you are going to
-                        use a passage of Lorem Ipsum. There are many variations of passages of Lorem Ipsum
-                        available, but majority have suffered alteration in some form, by injected humour,
-                        or randomised words which don't look even slightly believable. If you are going to
-                        use a passage of Lorem Ipsum. There are many variations of passages of Lorem Ipsum
-                        available, but majority have suffered alteration in some form, by injected humour,
-                        or randomised words which don't look even slightly believable. If you are going to
-                        use a passage of Lorem Ipsum. Suspendisse ultricies vestibulum vehicula. Proin
-                        laoreet porttitor lacus. Duis auctor vel ex eu elementum. Fusce eu volutpat felis.
-                        Proin sed eros tincidunt, sagittis sapien eu, porta diam. Aenean finibus scelerisque
-                        nulla non facilisis. Fusce vel orci sed quam gravida condimentum. Aliquam
-                        condimentum, massa vel mollis volutpat, erat sem pharetra quam, ac mattis arcu elit
-                        non massa. Nam mollis nunc velit, vel varius arcu fringilla tristique. Cras elit
-                        nunc, sagittis eu bibendum eu, ultrices placerat sem. Praesent vitae metus dolor.
-                        Nulla a erat et orci mattis auctor.</p>
-                    <p class="blog-details__text-2">Mauris non dignissim purus, ac commodo diam. Donec sit
-                        amet lacinia nulla. Aliquam quis purus in justo pulvinar tempor. Aliquam tellus
-                        nulla, sollicitudin at euismod nec, feugiat at nisi. Quisque vitae odio nec lacus
-                        interdum tempus. Phasellus a rhoncus erat. Vivamus vel eros vitae est aliquet
-                        pellentesque vitae et nunc. Sed vitae leo vitae nisl pellentesque semper.</p>
+                    <h3 class="blog-details__title">ResicareSA Values</h3>
+                    <p class="blog-details__text-1">
+
+                        ResicareSA is a registered provider of Specialist Disability Accommodation (SDA). Participants who are eligible for SDA receive funding for their accommodation as part of their plan. The overall aim of SDA is to provide participants with more choice when it comes to their housing options. This includes deciding where they live and who they live with.
+
+                        Our goal is to provide the support you need to live the way you choose. We do this by customising your care so that you can live as independently as possible. It may be that you need help to get ready for the day or assistance with eating or drinking. We can also assist with getting you to appointments. This includes social, recreational, educational, and medical appointments.
+                        </p>
                 </div>
             </div>
         </div>
@@ -125,30 +109,8 @@
                 <div class="testimonial-one__bg" style="background-image: url({{asset('front')}}/assets/images/backgrounds/testimonial-one-bg.jpg);"></div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-4">
-                            <div class="testimonial-one__left">
-                                <div class="section-title text-left">
-                                    <p class="section-title__tagline"><span>//</span> our testimonials <span>//</span>
-                                    </p>
-                                    <h2 class="section-title__title">What they’re
-                                        talking about us</h2>
-                                </div>
-                                <p class="testimonial-one__left-text">How to pursue pleasure rationally encounter
-                                    consequences
-                                    that painful again is there anyone who loves.</p>
-                                <div class="testimonial-one__ratting-box">
-                                    <div class="testimonial-one__ratting">
-                                        <span class="fas fa-star"></span>
-                                        <span class="fas fa-star"></span>
-                                        <span class="fas fa-star"></span>
-                                        <span class="fas fa-star"></span>
-                                        <span class="fas fa-star"></span>
-                                    </div>
-                                    <p>4.9 Average rating</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-8">
+
+                        <div class="col-xl-12">
                             <div class="testimonial-one__right">
                                 <div class="testimonial-one__img-1">
                                     <img src="{{asset('front')}}/assets/images/testimonial/testimonial-one-img-1.jpg" alt="">
@@ -185,8 +147,8 @@
                                         <div class="testimonial-one__single">
                                             <div class="testimonial-one__client-info-and-quote">
                                                 <div class="testimonial-one__client-info">
-                                                    <h3>Sarah brown</h3>
-                                                    <p>Co Founder</p>
+                                                    <h3>Respect</h3>
+                                                    {{-- <p>Co Founder</p> --}}
                                                 </div>
                                                 <div class="testimonial-one__quote">
                                                     <span class="icon-quote"></span>
@@ -205,8 +167,8 @@
                                         <div class="testimonial-one__single">
                                             <div class="testimonial-one__client-info-and-quote">
                                                 <div class="testimonial-one__client-info">
-                                                    <h3>David koper</h3>
-                                                    <p>Co Founder</p>
+                                                    <h3>Honesty</h3>
+                                                    {{-- <p>Co Founder</p> --}}
                                                 </div>
                                                 <div class="testimonial-one__quote">
                                                     <span class="icon-quote"></span>
@@ -225,8 +187,27 @@
                                         <div class="testimonial-one__single">
                                             <div class="testimonial-one__client-info-and-quote">
                                                 <div class="testimonial-one__client-info">
-                                                    <h3>Alisha martin</h3>
-                                                    <p>Co Founder</p>
+                                                    <h3>Confidentiality</h3>
+                                                    {{-- <p>Co Founder</p> --}}
+                                                </div>
+                                                <div class="testimonial-one__quote">
+                                                    <span class="icon-quote"></span>
+                                                </div>
+                                            </div>
+                                            <p class="testimonial-one__text">It is due to their excellent service,
+                                                competitive pricing and customer support. It’s through refresing to get
+                                                such
+                                                a personal touch. Duis aute irure dolor in reprehenderit esse cillum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!--Testimonial One Single End-->
+                                    <div class="item">
+                                        <div class="testimonial-one__single">
+                                            <div class="testimonial-one__client-info-and-quote">
+                                                <div class="testimonial-one__client-info">
+                                                    <h3>Development & Improvement</h3>
+                                                    {{-- <p>Co Founder</p> --}}
                                                 </div>
                                                 <div class="testimonial-one__quote">
                                                     <span class="icon-quote"></span>
@@ -264,8 +245,7 @@
                             </div>
                         </a>
                     </div>
-                    <h3 class="video-two__title">Unlock revenue growth
-                        <br> for your business</h3>
+                    <h3 class="video-two__title"> Disability Accommodation</h3>
                 </div>
             </div>
         </section>
@@ -275,14 +255,13 @@
         <section class="team-one">
             <div class="container">
                 <div class="section-title text-center">
-                    <p class="section-title__tagline"><span>//</span> our smart people <span>//</span>
-                    </p>
-                    <h2 class="section-title__title">Meet the team behind the
-                        <br> agency success</h2>
+                    {{-- <p class="section-title__tagline"><span>//</span> our smart people <span>//</span> --}}
+                    {{-- </p> --}}
+                    <h2 class="section-title__title">Welcome to the family </h2>
                 </div>
                 <div class="row">
                     <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="col-xl-3 col-lg-3 wow fadeInUp" data-wow-delay="100ms">
                         <div class="team-one__single">
                             <div class="team-one__img-box">
                                 <div class="team-one__img">
@@ -300,8 +279,8 @@
                             </div>
                             <div class="team-one__content">
                                 <div class="team-one__name-box">
-                                    <h3><a href="team-details.html">Mike hardson</a></h3>
-                                    <p>Developer</p>
+                                    <h3><a href="team-details.html">Aftab Cheema</a></h3>
+                                    <p>Manager</p>
                                 </div>
                                 <div class="team-one__arrow">
                                     <a href="team-details.html"><span class="icon-right-lg-arrow"></span></a>
@@ -311,7 +290,7 @@
                     </div>
                     <!--Team One Single End-->
                     <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                    <div class="col-xl-3 col-lg-3 wow fadeInUp" data-wow-delay="200ms">
                         <div class="team-one__single">
                             <div class="team-one__img-box">
                                 <div class="team-one__img">
@@ -329,8 +308,8 @@
                             </div>
                             <div class="team-one__content">
                                 <div class="team-one__name-box">
-                                    <h3><a href="team-details.html">Aleesha brown</a></h3>
-                                    <p>Designer</p>
+                                    <h3><a href="team-details.html">Beth Mildenhall</a></h3>
+                                    <p>Engagment and intake officer</p>
                                 </div>
                                 <div class="team-one__arrow">
                                     <a href="team-details.html"><span class="icon-right-lg-arrow"></span></a>
@@ -340,7 +319,7 @@
                     </div>
                     <!--Team One Single End-->
                     <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="col-xl-3 col-lg-3 wow fadeInUp" data-wow-delay="300ms">
                         <div class="team-one__single">
                             <div class="team-one__img-box">
                                 <div class="team-one__img">
@@ -358,8 +337,36 @@
                             </div>
                             <div class="team-one__content">
                                 <div class="team-one__name-box">
-                                    <h3><a href="team-details.html">Kevin martin</a></h3>
-                                    <p>Manager</p>
+                                    <h3><a href="team-details.html">Haroon Anjum</a></h3>
+                                    <p>Finance and Payroll manager</p>
+                                </div>
+                                <div class="team-one__arrow">
+                                    <a href="team-details.html"><span class="icon-right-lg-arrow"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Team One Single End-->
+                    <div class="col-xl-3 col-lg-3 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="team-one__single">
+                            <div class="team-one__img-box">
+                                <div class="team-one__img">
+                                    <img src="{{asset('front')}}/assets/images/team/team-1-3.jpg" alt="">
+                                </div>
+                                <div class="team-one__share-btn">
+                                    <a href="team-details.html"><span class="fas fa-share-alt"></span></a>
+                                    <ul class="list-unstyled team-one__social">
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-one__content">
+                                <div class="team-one__name-box">
+                                    <h3><a href="team-details.html">Victoria Mildenhall</a></h3>
+                                    <p>HR and Admin Assistatnt</p>
                                 </div>
                                 <div class="team-one__arrow">
                                     <a href="team-details.html"><span class="icon-right-lg-arrow"></span></a>
@@ -372,72 +379,5 @@
             </div>
         </section>
         <!--Team One End-->
-
-        <!--Brand One Start-->
-        <section class="brand-one">
-            <div class="container">
-                <h4 class="brand-one__title">1K+ Brands Trust Us</h4>
-                <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
-                    "0": {
-                        "spaceBetween": 30,
-                        "slidesPerView": 1
-                    },
-                    "375": {
-                        "spaceBetween": 30,
-                        "slidesPerView": 2
-                    },
-                    "575": {
-                        "spaceBetween": 30,
-                        "slidesPerView": 3
-                    },
-                    "767": {
-                        "spaceBetween": 50,
-                        "slidesPerView": 4
-                    },
-                    "991": {
-                        "spaceBetween": 50,
-                        "slidesPerView": 5
-                    },
-                    "1199": {
-                        "spaceBetween": 100,
-                        "slidesPerView": 5
-                    }
-                }}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="{{asset('front')}}/assets/images/brand/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="{{asset('front')}}/assets/images/brand/brand-1-2.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="{{asset('front')}}/assets/images/brand/brand-1-3.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="{{asset('front')}}/assets/images/brand/brand-1-4.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="{{asset('front')}}/assets/images/brand/brand-1-5.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="{{asset('front')}}/assets/images/brand/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="{{asset('front')}}/assets/images/brand/brand-1-2.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="{{asset('front')}}/assets/images/brand/brand-1-3.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="{{asset('front')}}/assets/images/brand/brand-1-4.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="{{asset('front')}}/assets/images/brand/brand-1-5.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Brand One End-->
 
 @endsection
